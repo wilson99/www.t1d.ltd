@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>健康生活日志W</title>
+  
+  <subtitle>Wilson的个人博客</subtitle>
+  <link href="https://www.t1d.ltd/atom.xml" rel="self"/>
+  
+  <link href="https://www.t1d.ltd/"/>
+  <updated>2020-11-06T06:11:54.000Z</updated>
+  <id>https://www.t1d.ltd/</id>
+  
+  <author>
+    <name>Wilson</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.t1d.ltd/2020/11/06/hello-world/"/>
+    <id>https://www.t1d.ltd/2020/11/06/hello-world/</id>
+    <published>2020-11-06T09:11:25.680Z</published>
+    <updated>2020-11-06T06:11:54.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
