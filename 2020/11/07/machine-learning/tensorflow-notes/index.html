@@ -397,7 +397,7 @@
             <div id="articleContent">
                 <h3 id="构建模型的3种方法"><a href="#构建模型的3种方法" class="headerlink" title="构建模型的3种方法"></a>构建模型的3种方法</h3><p>可以使用以下3种方式构建模型：使用Sequential按层顺序构建模型，使用函数式API构建任意结构模型，继承Model基类构建自定义模型。</p>
 <h4 id="1、Sequential按层顺序创建模型"><a href="#1、Sequential按层顺序创建模型" class="headerlink" title="1、Sequential按层顺序创建模型"></a>1、Sequential按层顺序创建模型</h4><p>对于顺序结构的模型，优先使用Sequential方法构建。</p>
-<pre class=" language-Python"><code class="language-Python">tf.keras.backend.clear_session()
+<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">tf.keras.backend.clear_session()
 
 model = models.Sequential()
 
@@ -413,9 +413,10 @@ model.compile(optimizer='Nadam',
             loss='binary_crossentropy',
             metrics=['accuracy',"AUC"])
 
-model.summary()</code></pre>
+model.summary()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <h4 id="2、函数式API创建任意结构模型"><a href="#2、函数式API创建任意结构模型" class="headerlink" title="2、函数式API创建任意结构模型"></a>2、函数式API创建任意结构模型</h4><p>如果模型有多输入或者多输出，或者模型需要共享权重，或者模型具有残差连接等非顺序结构，推荐使用函数式API进行创建。</p>
-<pre class=" language-Python"><code class="language-Python">tf.keras.backend.clear_session()
+<pre class="line-numbers language-Python" data-language="Python"><code class="language-Python">tf.keras.backend.clear_session()
 
 inputs = layers.Input(shape=[MAX_LEN])
 x  = layers.Embedding(MAX_WORDS,7)(inputs)
@@ -444,7 +445,8 @@ model.compile(optimizer='Nadam',
             loss='binary_crossentropy',
             metrics=['accuracy',"AUC"])
 
-model.summary()</code></pre>
+model.summary()<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
 <h4 id="3、Model子类化创建自定义模型"><a href="#3、Model子类化创建自定义模型" class="headerlink" title="3、Model子类化创建自定义模型"></a>3、Model子类化创建自定义模型</h4><p>如果无特定必要，尽可能避免使用Model子类化的方式构建模型，这种方式提供了极大的灵活性，但也有更大的概率出错。</p>
 <h3 id="训练模型的3种方法"><a href="#训练模型的3种方法" class="headerlink" title="训练模型的3种方法"></a>训练模型的3种方法</h3><p>模型的训练主要有内置fit方法、内置tran_on_batch方法、自定义训练循环。</p>
 <p>注：fit_generator方法在tf.keras中不推荐使用，其功能已经被fit包含。</p>
