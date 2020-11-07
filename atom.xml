@@ -6,7 +6,7 @@
   <link href="https://www.t1d.ltd/atom.xml" rel="self"/>
   
   <link href="https://www.t1d.ltd/"/>
-  <updated>2020-11-06T06:11:54.000Z</updated>
+  <updated>2020-11-07T03:36:22.000Z</updated>
   <id>https://www.t1d.ltd/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TensorFlow学习笔记</title>
+    <link href="https://www.t1d.ltd/2020/11/07/machine-learning/tensorflow-notes/"/>
+    <id>https://www.t1d.ltd/2020/11/07/machine-learning/tensorflow-notes/</id>
+    <published>2020-11-06T16:00:00.000Z</published>
+    <updated>2020-11-07T03:36:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;构建模型的3种方法&quot;&gt;&lt;a href=&quot;#构建模型的3种方法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Machine Learning" scheme="https://www.t1d.ltd/categories/Machine-Learning/"/>
+    
+    
+    <category term="Machine Learning" scheme="https://www.t1d.ltd/tags/Machine-Learning/"/>
+    
+    <category term="TensorFlow" scheme="https://www.t1d.ltd/tags/TensorFlow/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
