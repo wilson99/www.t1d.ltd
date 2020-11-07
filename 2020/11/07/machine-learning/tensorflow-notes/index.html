@@ -415,36 +415,36 @@ model.compile(optimizer='Nadam',
 
 model.summary()</code></pre>
 <h4 id="2、函数式API创建任意结构模型"><a href="#2、函数式API创建任意结构模型" class="headerlink" title="2、函数式API创建任意结构模型"></a>2、函数式API创建任意结构模型</h4><p>如果模型有多输入或者多输出，或者模型需要共享权重，或者模型具有残差连接等非顺序结构，推荐使用函数式API进行创建。</p>
-<pre class=" language-Python"><code class="language-Python">tf.keras.backend.clear_session()
+<pre class=" language-python"><code class="language-python">tf<span class="token punctuation">.</span>keras<span class="token punctuation">.</span>backend<span class="token punctuation">.</span>clear_session<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
-inputs = layers.Input(shape=[MAX_LEN])
-x  = layers.Embedding(MAX_WORDS,7)(inputs)
+inputs <span class="token operator">=</span> layers<span class="token punctuation">.</span>Input<span class="token punctuation">(</span>shape<span class="token operator">=</span><span class="token punctuation">[</span>MAX_LEN<span class="token punctuation">]</span><span class="token punctuation">)</span>
+x  <span class="token operator">=</span> layers<span class="token punctuation">.</span>Embedding<span class="token punctuation">(</span>MAX_WORDS<span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">(</span>inputs<span class="token punctuation">)</span>
 
-branch1 = layers.SeparableConv1D(64,3,activation="relu")(x)
-branch1 = layers.MaxPool1D(3)(branch1)
-branch1 = layers.SeparableConv1D(32,3,activation="relu")(branch1)
-branch1 = layers.GlobalMaxPool1D()(branch1)
+branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch1<span class="token punctuation">)</span>
+branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch1<span class="token punctuation">)</span>
+branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>GlobalMaxPool1D<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch1<span class="token punctuation">)</span>
 
-branch2 = layers.SeparableConv1D(64,5,activation="relu")(x)
-branch2 = layers.MaxPool1D(5)(branch2)
-branch2 = layers.SeparableConv1D(32,5,activation="relu")(branch2)
-branch2 = layers.GlobalMaxPool1D()(branch2)
+branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch2<span class="token punctuation">)</span>
+branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch2<span class="token punctuation">)</span>
+branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>GlobalMaxPool1D<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch2<span class="token punctuation">)</span>
 
-branch3 = layers.SeparableConv1D(64,7,activation="relu")(x)
-branch3 = layers.MaxPool1D(7)(branch3)
-branch3 = layers.SeparableConv1D(32,7,activation="relu")(branch3)
-branch3 = layers.GlobalMaxPool1D()(branch3)
+branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>
+branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch3<span class="token punctuation">)</span>
+branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch3<span class="token punctuation">)</span>
+branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>GlobalMaxPool1D<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch3<span class="token punctuation">)</span>
 
-concat = layers.Concatenate()([branch1,branch2,branch3])
-outputs = layers.Dense(1,activation = "sigmoid")(concat)
+concat <span class="token operator">=</span> layers<span class="token punctuation">.</span>Concatenate<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">[</span>branch1<span class="token punctuation">,</span>branch2<span class="token punctuation">,</span>branch3<span class="token punctuation">]</span><span class="token punctuation">)</span>
+outputs <span class="token operator">=</span> layers<span class="token punctuation">.</span>Dense<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"sigmoid"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>concat<span class="token punctuation">)</span>
 
-model = models.Model(inputs = inputs,outputs = outputs)
+model <span class="token operator">=</span> models<span class="token punctuation">.</span>Model<span class="token punctuation">(</span>inputs <span class="token operator">=</span> inputs<span class="token punctuation">,</span>outputs <span class="token operator">=</span> outputs<span class="token punctuation">)</span>
 
-model.compile(optimizer='Nadam',
-            loss='binary_crossentropy',
-            metrics=['accuracy',"AUC"])
+model<span class="token punctuation">.</span>compile<span class="token punctuation">(</span>optimizer<span class="token operator">=</span><span class="token string">'Nadam'</span><span class="token punctuation">,</span>
+            loss<span class="token operator">=</span><span class="token string">'binary_crossentropy'</span><span class="token punctuation">,</span>
+            metrics<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'accuracy'</span><span class="token punctuation">,</span><span class="token string">"AUC"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 
-model.summary()</code></pre>
+model<span class="token punctuation">.</span>summary<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="3、Model子类化创建自定义模型"><a href="#3、Model子类化创建自定义模型" class="headerlink" title="3、Model子类化创建自定义模型"></a>3、Model子类化创建自定义模型</h4><p>如果无特定必要，尽可能避免使用Model子类化的方式构建模型，这种方式提供了极大的灵活性，但也有更大的概率出错。</p>
 <h3 id="训练模型的3种方法"><a href="#训练模型的3种方法" class="headerlink" title="训练模型的3种方法"></a>训练模型的3种方法</h3><p>模型的训练主要有内置fit方法、内置tran_on_batch方法、自定义训练循环。</p>
 <p>注：fit_generator方法在tf.keras中不推荐使用，其功能已经被fit包含。</p>
