@@ -397,23 +397,23 @@
             <div id="articleContent">
                 <h3 id="构建模型的3种方法"><a href="#构建模型的3种方法" class="headerlink" title="构建模型的3种方法"></a>构建模型的3种方法</h3><p>可以使用以下3种方式构建模型：使用Sequential按层顺序构建模型，使用函数式API构建任意结构模型，继承Model基类构建自定义模型。</p>
 <h4 id="1、Sequential按层顺序创建模型"><a href="#1、Sequential按层顺序创建模型" class="headerlink" title="1、Sequential按层顺序创建模型"></a>1、Sequential按层顺序创建模型</h4><p>对于顺序结构的模型，优先使用Sequential方法构建。</p>
-<pre class=" language-Python"><code class="language-Python">tf.keras.backend.clear_session()
+<pre class=" language-python"><code class="language-python">tf<span class="token punctuation">.</span>keras<span class="token punctuation">.</span>backend<span class="token punctuation">.</span>clear_session<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
-model = models.Sequential()
+model <span class="token operator">=</span> models<span class="token punctuation">.</span>Sequential<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
-model.add(layers.Embedding(MAX_WORDS,7,input_length=MAX_LEN))
-model.add(layers.Conv1D(filters = 64,kernel_size = 5,activation = "relu"))
-model.add(layers.MaxPool1D(2))
-model.add(layers.Conv1D(filters = 32,kernel_size = 3,activation = "relu"))
-model.add(layers.MaxPool1D(2))
-model.add(layers.Flatten())
-model.add(layers.Dense(1,activation = "sigmoid"))
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Embedding<span class="token punctuation">(</span>MAX_WORDS<span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>input_length<span class="token operator">=</span>MAX_LEN<span class="token punctuation">)</span><span class="token punctuation">)</span>
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Conv1D<span class="token punctuation">(</span>filters <span class="token operator">=</span> <span class="token number">64</span><span class="token punctuation">,</span>kernel_size <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Conv1D<span class="token punctuation">(</span>filters <span class="token operator">=</span> <span class="token number">32</span><span class="token punctuation">,</span>kernel_size <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Flatten<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Dense<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"sigmoid"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
 
-model.compile(optimizer='Nadam',
-            loss='binary_crossentropy',
-            metrics=['accuracy',"AUC"])
+model<span class="token punctuation">.</span>compile<span class="token punctuation">(</span>optimizer<span class="token operator">=</span><span class="token string">'Nadam'</span><span class="token punctuation">,</span>
+            loss<span class="token operator">=</span><span class="token string">'binary_crossentropy'</span><span class="token punctuation">,</span>
+            metrics<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'accuracy'</span><span class="token punctuation">,</span><span class="token string">"AUC"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
 
-model.summary()</code></pre>
+model<span class="token punctuation">.</span>summary<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre>
 <h4 id="2、函数式API创建任意结构模型"><a href="#2、函数式API创建任意结构模型" class="headerlink" title="2、函数式API创建任意结构模型"></a>2、函数式API创建任意结构模型</h4><p>如果模型有多输入或者多输出，或者模型需要共享权重，或者模型具有残差连接等非顺序结构，推荐使用函数式API进行创建。</p>
 <pre class=" language-python"><code class="language-python">tf<span class="token punctuation">.</span>keras<span class="token punctuation">.</span>backend<span class="token punctuation">.</span>clear_session<span class="token punctuation">(</span><span class="token punctuation">)</span>
 
