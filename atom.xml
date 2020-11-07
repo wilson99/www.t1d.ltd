@@ -6,7 +6,7 @@
   <link href="https://www.t1d.ltd/atom.xml" rel="self"/>
   
   <link href="https://www.t1d.ltd/"/>
-  <updated>2020-11-07T09:59:18.000Z</updated>
+  <updated>2020-11-07T13:10:12.000Z</updated>
   <id>https://www.t1d.ltd/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>3个神奇的数学公式</title>
+    <link href="https://www.t1d.ltd/2020/11/07/math/3-formula/"/>
+    <id>https://www.t1d.ltd/2020/11/07/math/3-formula/</id>
+    <published>2020-11-07T11:54:33.000Z</published>
+    <updated>2020-11-07T13:10:12.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一：拉马努金恒等式&quot;&gt;&lt;a href=&quot;#一：拉马努金恒等式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>TensorFlow 学习笔记</title>
