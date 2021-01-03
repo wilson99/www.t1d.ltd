@@ -42,6 +42,57 @@
   </entry>
   
   <entry>
+    <title>colab clone github至google drive</title>
+    <link href="https://www.t1d.ltd/2020/11/19/machine-learning/colab-clone-github/"/>
+    <id>https://www.t1d.ltd/2020/11/19/machine-learning/colab-clone-github/</id>
+    <published>2020-11-18T16:00:00.000Z</published>
+    <updated>2021-01-03T12:49:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot; language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; google&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    <category term="Machine Learninig" scheme="https://www.t1d.ltd/categories/Machine-Learninig/"/>
+    
+    
+    <category term="colab" scheme="https://www.t1d.ltd/tags/colab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>张量、矩阵和向量区别</title>
+    <link href="https://www.t1d.ltd/2020/11/09/machine-learning/tensor-matrix-vector/"/>
+    <id>https://www.t1d.ltd/2020/11/09/machine-learning/tensor-matrix-vector/</id>
+    <published>2020-11-09T03:30:47.000Z</published>
+    <updated>2021-01-03T12:49:48.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;深度学习中会经常涉及到张量的维数、向量的维数的概念，我发现自己一直把它们给混淆了，原因是被一些约定俗成的叫法扰乱了，下面来介绍一下它们的区别。&lt;/p&gt;
+&lt;p&gt;首先，张量的维数等价于张量的阶数。&lt;br&gt;0维的张量就是标量，1维的张量就是向量，2维的张量就是矩阵，大于等于3维的</summary>
+        
+      
+    
+    
+    
+    <category term="Math" scheme="https://www.t1d.ltd/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://www.t1d.ltd/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
     <title>【大聪】《信条》两万字深度解析！</title>
     <link href="https://www.t1d.ltd/2020/11/08/movie/tenet/"/>
     <id>https://www.t1d.ltd/2020/11/08/movie/tenet/</id>
@@ -97,7 +148,7 @@
     <link href="https://www.t1d.ltd/2020/11/07/math/3-formula/"/>
     <id>https://www.t1d.ltd/2020/11/07/math/3-formula/</id>
     <published>2020-11-07T11:54:33.000Z</published>
-    <updated>2020-11-07T15:47:16.000Z</updated>
+    <updated>2021-01-03T12:49:48.000Z</updated>
     
     
       
