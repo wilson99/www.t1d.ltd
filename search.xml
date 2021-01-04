@@ -104,6 +104,31 @@
     
     
     <entry>
+      <title>Linux Plugins</title>
+      <link href="2021/01/04/linux/vim-plugins/"/>
+      <url>2021/01/04/linux/vim-plugins/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://github.com/VundleVim/Vundle.vim">VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim (github.com)</a></p><p><a href="https://github.com/ycm-core/YouCompleteMe">ycm-core/YouCompleteMe: A code-completion engine for Vim (github.com)</a></p><p><a href="https://github.com/preservim/nerdtree">preservim/nerdtree: A tree explorer plugin for vim. (github.com)</a></p><p><a href="https://github.com/Raimondi/delimitMate">Raimondi/delimitMate: Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. (github.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux VIM Tips</title>
       <link href="2021/01/04/linux/linux-vim-tips/"/>
       <url>2021/01/04/linux/linux-vim-tips/</url>
@@ -129,23 +154,23 @@
     
     
     <entry>
-      <title>Linux Plugins</title>
-      <link href="2021/01/04/linux/vim-plugins/"/>
-      <url>2021/01/04/linux/vim-plugins/</url>
+      <title>Scrum Master</title>
+      <link href="2021/01/04/projectmanagement/scrummaster/"/>
+      <url>2021/01/04/projectmanagement/scrummaster/</url>
       
-        <content type="html"><![CDATA[<p><a href="https://github.com/VundleVim/Vundle.vim">VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim (github.com)</a></p><p><a href="https://github.com/ycm-core/YouCompleteMe">ycm-core/YouCompleteMe: A code-completion engine for Vim (github.com)</a></p><p><a href="https://github.com/preservim/nerdtree">preservim/nerdtree: A tree explorer plugin for vim. (github.com)</a></p><p><a href="https://github.com/Raimondi/delimitMate">Raimondi/delimitMate: Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. (github.com)</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Scrum Master</p>]]></content>
       
       
       <categories>
           
-          <category> Linux </category>
+          <category> Project Management </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Linux </tag>
+            <tag> Project Management </tag>
             
         </tags>
       
