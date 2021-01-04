@@ -104,31 +104,6 @@
     
     
     <entry>
-      <title>Linux Plugins</title>
-      <link href="2021/01/04/linux/vim-plugins/"/>
-      <url>2021/01/04/linux/vim-plugins/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://github.com/VundleVim/Vundle.vim">VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim (github.com)</a></p><p><a href="https://github.com/ycm-core/YouCompleteMe">ycm-core/YouCompleteMe: A code-completion engine for Vim (github.com)</a></p><p><a href="https://github.com/preservim/nerdtree">preservim/nerdtree: A tree explorer plugin for vim. (github.com)</a></p><p><a href="https://github.com/Raimondi/delimitMate">Raimondi/delimitMate: Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. (github.com)</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Linux </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Linux </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Linux VIM Tips</title>
       <link href="2021/01/04/linux/linux-vim-tips/"/>
       <url>2021/01/04/linux/linux-vim-tips/</url>
@@ -154,11 +129,36 @@
     
     
     <entry>
-      <title>Scrum Master</title>
+      <title>VIM Plugins</title>
+      <link href="2021/01/04/linux/vim-plugins/"/>
+      <url>2021/01/04/linux/vim-plugins/</url>
+      
+        <content type="html"><![CDATA[<h3 id="VundleVIM"><a href="#VundleVIM" class="headerlink" title="VundleVIM"></a>VundleVIM</h3><p><a href="https://github.com/VundleVim/Vundle.vim">VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim (github.com)</a></p><h4 id="1-git-clone"><a href="#1-git-clone" class="headerlink" title="1. git clone"></a>1. git clone</h4><pre><code>git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim</code></pre><h4 id="2-vi-vimrc"><a href="#2-vi-vimrc" class="headerlink" title="2. vi ~/.vimrc"></a>2. vi ~/.vimrc</h4><pre><code>set nocompatible " be iMproved, requiredfiletype off " required" set the runtime path to include Vundle and initializeset rtp+=~/.vim/bundle/Vundle.vimcall vundle#begin()" alternatively, pass a path where Vundle should install plugins"call vundle#begin('~/some/path/here')" let Vundle manage Vundle, requiredPlugin 'VundleVim/Vundle.vim'" The following are examples of different formats supported." Keep Plugin commands between vundle#begin/end." plugin on GitHub repoPlugin 'tpope/vim-fugitive'" plugin from http://vim-scripts.org/vim/scripts.html" Plugin 'L9'" Git plugin not hosted on GitHubPlugin 'git://git.wincent.com/command-t.git'" git repos on your local machine (i.e. when working on your own plugin)Plugin 'file:///home/gmarik/path/to/plugin'" The sparkup vim script is in a subdirectory of this repo called vim." Pass the path to set the runtimepath properly.Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}" Install L9 and avoid a Naming conflict if you've already installed a" different version somewhere else." Plugin 'ascenator/L9', {'name': 'newL9'}" All of your Plugins must be added before the following linecall vundle#end() " requiredfiletype plugin indent on " required" To ignore plugin indent changes, instead use:"filetype plugin on"" Brief help" :PluginList       - lists configured plugins" :PluginInstall    - installs plugins; append \`!\` to update or just :PluginUpdate" :PluginSearch foo - searches for foo; append \`!\` to refresh local cache" :PluginClean      - confirms removal of unused plugins; append \`!\` to auto-approve removal"" see :h vundle for more details or wiki for FAQ" Put your non-Plugin stuff after this line</code></pre><h4 id="3-vim-PluginInstall-qall"><a href="#3-vim-PluginInstall-qall" class="headerlink" title="3. vim +PluginInstall +qall"></a>3. vim +PluginInstall +qall</h4><h3 id="YouCompleteMe"><a href="#YouCompleteMe" class="headerlink" title="YouCompleteMe"></a>YouCompleteMe</h3><p><a href="https://github.com/ycm-core/YouCompleteMe">ycm-core/YouCompleteMe: A code-completion engine for Vim (github.com)</a></p><h4 id="1-Add-into-vimrc"><a href="#1-Add-into-vimrc" class="headerlink" title="1. Add into ~/.vimrc"></a>1. Add into ~/.vimrc</h4><pre><code>Plugin 'ycm-core/YouCompleteMe'</code></pre><h4 id="2-PluginInstall"><a href="#2-PluginInstall" class="headerlink" title="2. :PluginInstall"></a>2. :PluginInstall</h4><h4 id="3-Compile"><a href="#3-Compile" class="headerlink" title="3. Compile"></a>3. Compile</h4><pre><code>cd ~/.vim/bundle/YouCompleteMepython3 install.py --all</code></pre><h4 id="4-Add-into-end-of-vimrc"><a href="#4-Add-into-end-of-vimrc" class="headerlink" title="4. Add into end of ~/.vimrc"></a>4. Add into end of ~/.vimrc</h4><pre><code>let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'</code></pre><h4 id="optional-Add-into-ycm-extra-conf-py"><a href="#optional-Add-into-ycm-extra-conf-py" class="headerlink" title="optional. Add into ~/.ycm_extra_conf.py"></a>optional. Add into ~/.ycm_extra_conf.py</h4><pre><code>'-isystem','/usr/local/include/opencv4',</code></pre><p><a href="https://github.com/preservim/nerdtree">preservim/nerdtree: A tree explorer plugin for vim. (github.com)</a></p><p><a href="https://github.com/Raimondi/delimitMate">Raimondi/delimitMate: Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. (github.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ScrumMaster</title>
       <link href="2021/01/04/projectmanagement/scrummaster/"/>
       <url>2021/01/04/projectmanagement/scrummaster/</url>
       
-        <content type="html"><![CDATA[<p>Scrum Master</p>]]></content>
+        <content type="html"><![CDATA[<h4 id="活动的目标，自管理团队"><a href="#活动的目标，自管理团队" class="headerlink" title="活动的目标，自管理团队"></a><strong>活动的目标，自管理团队</strong></h4><h4 id="The-3-legs-of-empirical-process"><a href="#The-3-legs-of-empirical-process" class="headerlink" title="The 3 legs of empirical process"></a><strong>The 3 legs of empirical process</strong></h4><ul><li>Transparency -&gt; 透明</li><li>Inspection -&gt; 检测</li><li>Adaptation -&gt; 调整</li></ul><h4 id="Agile-Values"><a href="#Agile-Values" class="headerlink" title="Agile Values"></a><strong>Agile Values</strong></h4><ul><li>Individuals and interactions    OVER    processes and tools    -&gt; 个体和交互    高于    流程和工具</li><li>Working software    OVER    comprehensive documentation -&gt; 可工作的软件    高于    详尽的文档</li><li>Customer collaboration    OVER    contract nogotiation -&gt; 客户协作    高于    合同谈判</li><li>Responding to changes    OVER    following a plan -&gt; 相应变化    高于    遵守变化</li></ul><h4 id="3-Roles"><a href="#3-Roles" class="headerlink" title="3 Roles"></a><strong>3 Roles</strong></h4><ul><li>Development Team -&gt; 小团队，跨职能，5-9人；自管理；Full Time在一起</li><li>Product Owner -&gt; 要有财务权，唯一得到授权的人，ROI(Return of investment)投资回报率</li><li>ScrumMaster</li></ul><h4 id="3-Artifacts"><a href="#3-Artifacts" class="headerlink" title="3 Artifacts"></a><strong>3 Artifacts</strong></h4><ul><li>Product Backlog</li><li>Sprint Backlog</li><li>Increment</li></ul><h4 id="5-Events"><a href="#5-Events" class="headerlink" title="5 Events"></a><strong>5 Events</strong></h4><ul><li>Sprint -&gt; Duration: 1-4 weeks</li><li>Sprint Planning -&gt; 2h/week: What will be done, How will it be done</li><li>Daily Scrum -&gt; 15 min: Done yesterday, Will Done today, Blocking Issue</li><li>Sprint Review -&gt; 1h/week: all stakeholders and interested parties</li><li>Sprint Retrospective -&gt; 45 min/week: what start, what stop, what keep doing</li></ul><h4 id="5-Values"><a href="#5-Values" class="headerlink" title="5 Values"></a><strong>5 Values</strong></h4><ul><li>Courage</li><li>Openness</li><li>Focus</li><li>Commitment</li><li>Respect</li></ul><h4 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h4><ul><li>迭代成功率不能用来考核，应该看功能交付率</li><li>燃尽图，燃起图</li><li>Estimate is never accurate, we like Relative Estimation better</li><li>敏捷&lt;&gt;更快的交付，反而更多时间，人力，成本，敏捷更慢，更多回归测试，好处是在最短的时间交付最大价值，随时可以变</li><li>PO, SM都可以带多个团队，团队组员不能跨团队</li><li>领功能在迭代计划会议之后</li></ul><h4 id="Agile-Principles"><a href="#Agile-Principles" class="headerlink" title="Agile Principles"></a>Agile Principles</h4><ol><li>Our highest priority is to satisfy the customer through early and continuous deliver of valuable software.</li><li>Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.</li><li>Delivery working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.</li><li>Business people and developers must work together daily throughout the project.</li><li>Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.</li><li>The most efficient and effective method of converying information to and within a development team is face-to-face conversation.</li><li>Working software is the primary measure of progress.</li><li>Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.</li><li>Continuous attention to tecnical excellence and good design enhaces agility.</li><li>Simplicity - the art of maximizing the amout of work not done - is essential.</li><li>The best architectures, requirements, and designs emerge from self-organizing teams.</li><li>At regular intervals, the team reflects on how to become more effective, then tunes and adjusts it behavior accordingly.</li></ol>]]></content>
       
       
       <categories>
