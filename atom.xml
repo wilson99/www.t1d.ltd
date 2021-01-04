@@ -6,7 +6,7 @@
   <link href="https://www.t1d.ltd/atom.xml" rel="self"/>
   
   <link href="https://www.t1d.ltd/"/>
-  <updated>2021-01-03T13:04:38.000Z</updated>
+  <updated>2021-01-04T03:46:28.000Z</updated>
   <id>https://www.t1d.ltd/</id>
   
   <author>
@@ -15,6 +15,134 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Design Patterns</title>
+    <link href="https://www.t1d.ltd/2021/01/04/architecture/design-pattern/"/>
+    <id>https://www.t1d.ltd/2021/01/04/architecture/design-pattern/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2021-01-04T03:46:28.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;面向对象6大设计原则&quot;&gt;&lt;a href=&quot;#面向对象6大设计原则&quot; class=&quot;headerlink&quot; title=&quot;面向对象6大设计原则&quot;&gt;&lt;/a&gt;面向对象6大设计原则&lt;/h1&gt;&lt;h2 id=&quot;1-开闭原则&quot;&gt;&lt;a href=&quot;#1-开闭原则&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Architecture" scheme="https://www.t1d.ltd/categories/Architecture/"/>
+    
+    
+    <category term="Architecture" scheme="https://www.t1d.ltd/tags/Architecture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Screen Tips</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-screen-tips/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-screen-tips/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2021-01-04T03:15:30.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;常用Screen参数&quot;&gt;&lt;a href=&quot;#常用Screen参数&quot; class=&quot;headerlink&quot; title=&quot;常用Screen参数&quot;&gt;&lt;/a&gt;常用Screen参数&lt;/h1&gt;&lt;p&gt;screen -S yourname -&amp;gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Shell快捷键</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-shell-shortcut-key/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-shell-shortcut-key/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2021-01-04T03:12:42.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;1.控制命令&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ctrl + l：清屏（与clear命令效果相同）&lt;/p&gt;
+&lt;p&gt;Ctrl + c：终止当前正在执行的命令&lt;/p&gt;
+&lt;p&gt;Ctrl +</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Tmux Tips</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-tmux-tips/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-tmux-tips/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2021-01-04T03:31:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;常用到的几个组合键：&lt;/strong&gt;&lt;br&gt;ctrl+b ?            显示快捷键帮助&lt;br&gt;ctrl+b 空格键       采用下一个内置布局，这个很有意思，在多屏时，用这个就会将多有屏幕竖着展示&lt;br&gt;ctrl+b !         </summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux VIM Tips</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-vim-tips/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-vim-tips/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2021-01-04T04:30:08.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Online-Help&quot;&gt;&lt;a href=&quot;#Online-Help&quot; class=&quot;headerlink&quot; title=&quot;Online Help&quot;&gt;&lt;/a&gt;Online Help&lt;/h1&gt;&lt;p&gt;:help x -&amp;gt; Normal mode</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习实战</title>

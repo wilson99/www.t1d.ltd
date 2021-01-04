@@ -4,6 +4,131 @@
   
     
     <entry>
+      <title>Design Patterns</title>
+      <link href="2021/01/04/architecture/design-pattern/"/>
+      <url>2021/01/04/architecture/design-pattern/</url>
+      
+        <content type="html"><![CDATA[<h1 id="面向对象6大设计原则"><a href="#面向对象6大设计原则" class="headerlink" title="面向对象6大设计原则"></a>面向对象6大设计原则</h1><h2 id="1-开闭原则"><a href="#1-开闭原则" class="headerlink" title="1. 开闭原则"></a>1. 开闭原则</h2><h2 id="2-单一原则"><a href="#2-单一原则" class="headerlink" title="2. 单一原则"></a>2. 单一原则</h2><h2 id="3-里式替换原则"><a href="#3-里式替换原则" class="headerlink" title="3. 里式替换原则"></a>3. 里式替换原则</h2><h2 id="4-迪米特原则"><a href="#4-迪米特原则" class="headerlink" title="4. 迪米特原则"></a>4. 迪米特原则</h2><h2 id="5-依赖倒置原则"><a href="#5-依赖倒置原则" class="headerlink" title="5. 依赖倒置原则"></a>5. 依赖倒置原则</h2><h2 id="6-接口隔离原则"><a href="#6-接口隔离原则" class="headerlink" title="6. 接口隔离原则"></a>6. 接口隔离原则</h2><h1 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h1><h2 id="1-创建型模式"><a href="#1-创建型模式" class="headerlink" title="1. 创建型模式"></a>1. 创建型模式</h2><h3 id="1-1-单例模式"><a href="#1-1-单例模式" class="headerlink" title="1.1 单例模式"></a>1.1 单例模式</h3><h4 id="懒汉式"><a href="#懒汉式" class="headerlink" title="懒汉式"></a>懒汉式</h4><h4 id="非懒汉式"><a href="#非懒汉式" class="headerlink" title="非懒汉式"></a>非懒汉式</h4><h4 id="Java枚举类型"><a href="#Java枚举类型" class="headerlink" title="Java枚举类型"></a>Java枚举类型</h4><h4 id="两段锁式"><a href="#两段锁式" class="headerlink" title="两段锁式"></a>两段锁式</h4><h3 id="1-2-工厂方法"><a href="#1-2-工厂方法" class="headerlink" title="1.2 工厂方法"></a>1.2 工厂方法</h3><h3 id="1-3-抽象工厂"><a href="#1-3-抽象工厂" class="headerlink" title="1.3 抽象工厂"></a>1.3 抽象工厂</h3><h3 id="1-4-Builder模式"><a href="#1-4-Builder模式" class="headerlink" title="1.4 Builder模式"></a>1.4 Builder模式</h3><h3 id="1-5-Prototype模式"><a href="#1-5-Prototype模式" class="headerlink" title="1.5 Prototype模式"></a>1.5 Prototype模式</h3><h2 id="2-结构型模式"><a href="#2-结构型模式" class="headerlink" title="2. 结构型模式"></a>2. 结构型模式</h2><h3 id="2-1-Adapter"><a href="#2-1-Adapter" class="headerlink" title="2.1 Adapter"></a>2.1 Adapter</h3><h3 id="2-2-Bridge"><a href="#2-2-Bridge" class="headerlink" title="2.2 Bridge"></a>2.2 Bridge</h3><h3 id="2-3-Decorator"><a href="#2-3-Decorator" class="headerlink" title="2.3 Decorator"></a>2.3 Decorator</h3><h3 id="2-4-Facade"><a href="#2-4-Facade" class="headerlink" title="2.4 Facade"></a>2.4 Facade</h3><h3 id="2-5-FlyWeight"><a href="#2-5-FlyWeight" class="headerlink" title="2.5 FlyWeight"></a>2.5 FlyWeight</h3><h3 id="2-6-Proxy"><a href="#2-6-Proxy" class="headerlink" title="2.6 Proxy"></a>2.6 Proxy</h3><h4 id="静态代理"><a href="#静态代理" class="headerlink" title="静态代理"></a>静态代理</h4><h4 id="JDK动态代理"><a href="#JDK动态代理" class="headerlink" title="JDK动态代理"></a>JDK动态代理</h4><h4 id="GCLIB动态代理"><a href="#GCLIB动态代理" class="headerlink" title="GCLIB动态代理"></a>GCLIB动态代理</h4><h2 id="3-行为型模式"><a href="#3-行为型模式" class="headerlink" title="3. 行为型模式"></a>3. 行为型模式</h2><h3 id="3-1-Chains-of-Responsibility"><a href="#3-1-Chains-of-Responsibility" class="headerlink" title="3.1 Chains of Responsibility"></a>3.1 Chains of Responsibility</h3><h3 id="3-2-Command"><a href="#3-2-Command" class="headerlink" title="3.2 Command"></a>3.2 Command</h3><h3 id="3-3-Intepretor"><a href="#3-3-Intepretor" class="headerlink" title="3.3 Intepretor"></a>3.3 Intepretor</h3><h3 id="3-4-Iterator"><a href="#3-4-Iterator" class="headerlink" title="3.4 Iterator"></a>3.4 Iterator</h3><h3 id="3-5-Mediator"><a href="#3-5-Mediator" class="headerlink" title="3.5 Mediator"></a>3.5 Mediator</h3><h3 id="3-6-Memento"><a href="#3-6-Memento" class="headerlink" title="3.6 Memento"></a>3.6 Memento</h3><h3 id="3-7-Observer"><a href="#3-7-Observer" class="headerlink" title="3.7 Observer"></a>3.7 Observer</h3><h3 id="3-8-State"><a href="#3-8-State" class="headerlink" title="3.8 State"></a>3.8 State</h3><h3 id="3-9-Strategy"><a href="#3-9-Strategy" class="headerlink" title="3.9 Strategy"></a>3.9 Strategy</h3><h3 id="3-10-Template"><a href="#3-10-Template" class="headerlink" title="3.10 Template"></a>3.10 Template</h3><h3 id="3-11-Visitor"><a href="#3-11-Visitor" class="headerlink" title="3.11 Visitor"></a>3.11 Visitor</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> Architecture </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Architecture </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Screen Tips</title>
+      <link href="2021/01/04/linux/linux-screen-tips/"/>
+      <url>2021/01/04/linux/linux-screen-tips/</url>
+      
+        <content type="html"><![CDATA[<h1 id="常用Screen参数"><a href="#常用Screen参数" class="headerlink" title="常用Screen参数"></a>常用Screen参数</h1><p>screen -S yourname -&gt; 新建一个叫yourname的session<br>screen -ls         -&gt; 列出当前所有的session<br>screen -r yourname -&gt; 回到yourname这个session<br>screen -d yourname -&gt; 远程detach某个session<br>screen -d -r yourname -&gt; 结束当前session并回到yourname这个session<br>screen -x yourname -&gt; attach一个已经attached的session</p><h1 id="在Session下，使用ctrl-a-C-a"><a href="#在Session下，使用ctrl-a-C-a" class="headerlink" title="在Session下，使用ctrl+a(C-a)"></a>在Session下，使用ctrl+a(C-a)</h1><p>C-a ? -&gt; 显示所有键绑定信息<br>C-a c -&gt; 创建一个新的运行shell的窗口并切换到该窗口<br>C-a n -&gt; Next，切换到下一个 window<br>C-a p -&gt; Previous，切换到前一个 window<br>C-a 0..9 -&gt; 切换到第 0..9 个 window<br>Ctrl+a [Space] -&gt; 由视窗0循序切换到视窗9<br>C-a C-a -&gt; 在两个最近使用的 window 间切换<br>C-a x -&gt; 锁住当前的 window，需用用户密码解锁<br>C-a d -&gt; detach，暂时离开当前session，将目前的 screen session (可能含有多个 windows) 丢到后台执行，并会回到还没进 screen 时的状态，此时在 screen session 里，每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。<br>C-a z -&gt; 把当前session放到后台执行，用 shell 的 fg 命令则可回去。<br>C-a w -&gt; 显示所有窗口列表<br>C-a t -&gt; time，显示当前时间，和系统的 load<br>C-a k -&gt; kill window，强行关闭当前的 window<br>C-a [ -&gt; 进入 copy mode，在 copy mode 下可以回滚、搜索、复制就像用使用 vi 一样<br>    C-b Backward，PageUp<br>    C-f Forward，PageDown<br>    H(大写) High，将光标移至左上角<br>    L Low，将光标移至左下角<br>    0 移到行首<br>    $ 行末<br>    w forward one word，以字为单位往前移<br>    b backward one word，以字为单位往后移<br>    Space 第一次按为标记区起点，第二次按为终点<br>    Esc 结束 copy mode<br>C-a ] -&gt; paste，把刚刚在 copy mode 选定的内容贴上<br>C-a A -&gt; 改名当前窗口<br>C-a S -&gt; 上下分屏窗格<br>C-a tag -&gt; 切换窗格<br>C-a X -&gt; 关闭当前焦点所在窗格<br>C-a Q -&gt; 关闭除当前窗格之外其他的所有窗格<br>C-a : -&gt; 进入命令方式<br>    split -v -&gt; 左右分窗格<br>    split -&gt; 上下分窗格</p><p>man screen 查找DEFAULT KEY BINDINGS查看所有快捷键</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Shell快捷键</title>
+      <link href="2021/01/04/linux/linux-shell-shortcut-key/"/>
+      <url>2021/01/04/linux/linux-shell-shortcut-key/</url>
+      
+        <content type="html"><![CDATA[<p><strong>1.控制命令</strong></p><p>Ctrl + l：清屏（与clear命令效果相同）</p><p>Ctrl + c：终止当前正在执行的命令</p><p>Ctrl + z：挂起命令，把当前进程转到后台运行，使用fg命令恢复，bg命令继续后台运行，jobs命令查询后台进程。</p><p>Ctrl + d : 退出当前 Shell</p><p><strong>2.编辑命令</strong></p><p><strong>光标移动</strong></p><p>Ctrl + a ：移到命令行首</p><p>Ctrl + e ：移到命令行尾</p><p>Ctrl + f ：前移（向右移动）一个字符</p><p>Ctrl + b ：后退（向左移动）一个字符</p><p>Alt + f ：前移（向右移动）一个单词</p><p>Alt + b ：后退（向左移动）一个单词</p><p>Ctrl + xx：在命令行首和光标之间移动</p><p><strong>3.文本修改</strong></p><p><strong>补全、删除、粘贴</strong></p><p>tab : 自动补全命令</p><p>Ctrl + u ：从光标处删除至命令行首</p><p>Ctrl + k ：从光标处删除至命令行尾</p><p>Ctrl + w ：从光标处删除至字首</p><p>Alt + d ：从光标处删除至字尾</p><p>Ctrl + d ：删除光标处（或光标后）的字符（如果光标前后都没有字符，即命令行为空的时候，则会退出shell）</p><p>Ctrl + h ：删除光标前的字符(与backspace键相同)</p><p>Alt + Backspace：与 Ctrl + w 类似，分隔符有些差别</p><p>Ctrl + y ：粘贴至光标后</p><p><strong>4.改变大小写</strong></p><p>Alt + c ：从光标处更改为首字母大写的单词</p><p>Alt + u ：从光标处更改为全部大写的单词</p><p>Alt + l ：从光标处更改为全部小写的单词</p><p><strong>5.交换字符、单词位置</strong></p><p>Ctrl + t ：交换光标处和之前的字符（ESC+t相同）</p><p>Alt + t ：交换光标处和之前的单词</p><p><strong>6.重新执行命令</strong></p><p>Ctrl + p：历史中的上一条命令</p><p>Ctrl + n：历史中的下一条命令</p><p>Alt + .：使用上一条命令的最后一个参数（会直接在当前光标位置显示）</p><p>Ctrl + r：搜索之前使用过的命令</p><p>Ctrl + g：从历史搜索模式退出</p><p><strong>7.Bang (!) 命令</strong></p><p>Bang命令算不上快捷键键，但是使用可以快捷的进行一些操作，比如重新执行之前命令、修改上一条命令并执行等等。</p><p>!!：执行上一条命令</p><p>!cc：执行最近的以cc开头的命令，如!l会执行ls命令</p><p>!$：打印上一条命令的最后一个参数，并回车执行。与Alt + .相似，但是会自动执行</p><p>!*：上一条命令的所有参数 !cc:p：仅打印以!cc的输出，但不执行，如!l:p会显示ls</p><p>!$:p：打印输出!$的输出</p><p>^blah：删除上一条命令中第一个blah，然后执行</p><p>^blah^foo：将上一条命令中的 blah 替换为 foo，然后执行</p><p>^blah^foo^：将上一条命令中所有的 blah 都替换为 foo，然后执行</p><p><strong>补充</strong><br>Ctrl + -: 撤回上一次修改<br>Alt + r: 撤回所有修改<br>man bash: 查找Commands for Moving查看所有快捷键</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Tmux Tips</title>
+      <link href="2021/01/04/linux/linux-tmux-tips/"/>
+      <url>2021/01/04/linux/linux-tmux-tips/</url>
+      
+        <content type="html"><![CDATA[<p><strong>常用到的几个组合键：</strong><br>ctrl+b ?            显示快捷键帮助<br>ctrl+b 空格键       采用下一个内置布局，这个很有意思，在多屏时，用这个就会将多有屏幕竖着展示<br>ctrl+b !            把当前窗口变为新窗口<br>ctrl+b  “           模向分隔窗口<br>ctrl+b %            纵向分隔窗口<br>ctrl+b q            显示分隔窗口的编号<br>ctrl+b o            跳到下一个分隔窗口。多屏之间的切换<br>ctrl+b 上下键      上一个及下一个分隔窗口<br>ctrl+b C-方向键    调整分隔窗口大小<br>ctrl+b &amp;           确认后退出当前tmux<br>ctrl+b [           复制模式，即将当前屏幕移到上一个的位置上，其他所有窗口都向前移动一个。<br>ctrl+b c           创建新窗口<br>ctrl+b n           选择下一个窗口<br>ctrl+b l           最后使用的窗口<br>ctrl+b p           选择前一个窗口<br>ctrl+b w           以菜单方式显示及选择窗口<br>ctrl+b s           以菜单方式显示和选择会话。这个常用到，可以选择进入哪个tmux<br>ctrl+b t           显示时钟。然后按enter键后就会恢复到shell终端状态<br>ctrl+b d           脱离当前会话；这样可以暂时返回Shell界面，输入tmux attach能够重新进入之前的会话</p><p><strong>常用命令</strong><br>tmux ls<br>tmux new -s yourname<br>tmux attach -t yourname</p><p>man tmux查找DEFAULT KEY BINDINGS查询所有快捷键</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux VIM Tips</title>
+      <link href="2021/01/04/linux/linux-vim-tips/"/>
+      <url>2021/01/04/linux/linux-vim-tips/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Online-Help"><a href="#Online-Help" class="headerlink" title="Online Help"></a>Online Help</h1><p>:help x -&gt; Normal mode command<br>:help v_u -&gt; Visual mode command<br>:help i_ -&gt; Insert mode command</p><h1 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h1><p>C-f -&gt; 向前翻页<br>C-b -&gt; 往回翻页<br>C-d -&gt; 向前翻半页<br>C-u -&gt; 往回翻半页<br>C-e -&gt; 向前翻一行<br>C-y -&gt; 往回翻一行</p><p>M -&gt; 光标跳到屏幕中间<br>L -&gt; 光标跳到屏幕底部<br>H -&gt; 光标跳到屏幕顶部</p><p>w -&gt; 光标往前跳一个单词<br>b -&gt; 光标往回跳一个单词<br>d -&gt; +d删一行，+w往前删一个单词, +b往回删一个单词<br>y -&gt; +y拷贝一行<br>p -&gt; 粘贴<br>u -&gt; 撤回修改<br>C-r -&gt; 重复撤回的修改</p><p>. -&gt; 重复上一次的命令<br>; -&gt; 重复正向查找或反向查找t/T/f/F<br>, -&gt; 反向t/T/f/F</p><p>:split -&gt; 上下分屏<br>:vsplit -&gt; 左右分屏<br>vi -p test1.cpp test2.cpp -&gt; 分标签页<br>:tabe test3.cpp -&gt; 打开第3个标签页<br>:tabn -&gt; 下一个标签页<br>:tabp -&gt; 上一个标签页<br>vi -o test1.cpp test2.cpp -&gt; 上下分屏<br>vi -O test1.cpp test2.cpp -&gt; 左右分屏<br>C-w -&gt; 加方向键或w在窗格间跳转</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>机器学习实战</title>
       <link href="2021/01/03/machine-learning/hands-on-ml/"/>
       <url>2021/01/03/machine-learning/hands-on-ml/</url>
