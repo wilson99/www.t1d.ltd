@@ -1,0 +1,1530 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Linux Tips, 健康生活日志W">
+    <meta name="description" content="非经营性网站，主要是个人在工作，学习，生活上的一些分享，希望大家健康生活，天天向上。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Linux Tips | 健康生活日志W</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 5.4.2">
+<style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="健康生活日志W" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">健康生活日志W</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>标签</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>分类</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>归档</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">健康生活日志W</div>
+        <div class="logo-desc">
+            
+            非经营性网站，主要是个人在工作，学习，生活上的一些分享，希望大家健康生活，天天向上。
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			标签
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			分类
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			归档
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			关于
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Linux Tips</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        width: 345px;
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content {
+        height: calc(100vh - 250px);
+        overflow: auto;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+
+        position: absolute;
+        right: 23.5vw;
+        display: block;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #floating-toc-btn {
+        position: fixed;
+        right: 15px;
+        bottom: 76px;
+        padding-top: 15px;
+        margin-bottom: 0;
+        z-index: 998;
+    }
+
+    #floating-toc-btn .btn-floating {
+        width: 48px;
+        height: 48px;
+    }
+
+    #floating-toc-btn .btn-floating i {
+        line-height: 48px;
+        font-size: 1.4rem;
+    }
+</style>
+<div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Linux/">
+                                <span class="chip bg-color">Linux</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Linux/" class="post-category">
+                                Linux
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2020-11-07
+                </div>
+                
+
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
+                    2022-11-18
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    2.9k
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    11 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><img src="20-linux-cmd.png"></p>
+<h4 id="1-查看目录以及权限"><a href="#1-查看目录以及权限" class="headerlink" title="1 查看目录以及权限"></a>1 查看目录以及权限</h4><blockquote>
+<p>在windows中，使用dir查看当前目录中文件。在Linux中使用ls(list)查看当前目录文件。</p>
+</blockquote>
+<p>windows中的dir，如下图所示<br><img src="windows-dir.png"></p>
+<blockquote>
+<p>在Linux中，通常使用ls -l列出，其中可以查看文件属性，所属用户组等较为详细的信息。下面详细解释从左到右每一列是什么意思<br><img src="linux-ls.jpg"></p>
+</blockquote>
+<p>第一列第一个字段：文件类型，后面9个字符是模式，其中分为三组，每一组三个字段。第一组为所属用户权限。第二组为所属组的权限。第三组为其他用户所属权限。其中r(read)代表可读，w(write)代表可写，e(execute)代表可执行。在后面的9个字符中，如果是字母说明有相应的权限，如果为”-“代表没有权限。举一个例子<br>-rw-r-r–:此为普通文件，对于所属用户为可读可写不能执行，对于所属组仅仅可读，对于其他用户仅为读。</p>
+<p>第二列 硬链接数目</p>
+<blockquote>
+<p>硬链接允许作用之一是允许一个文件拥有多个有效路径名，从而防止误删。但是只能在同一文件系统中的文件之间进行连接，不能对目录进行创建。</p>
+</blockquote>
+<p>第三列是所属用户，第四列为所属组，第五列为文件大小，第六列为文件被修改的时间，最后为文件名。其中使用chown改变所属用户，chgrp改变所属组。</p>
+<h4 id="2-nohup-no-hang-up不要挂起的意思"><a href="#2-nohup-no-hang-up不要挂起的意思" class="headerlink" title="2 nohup (no hang up不要挂起的意思)"></a>2 nohup (no hang up不要挂起的意思)</h4><blockquote>
+<p>这也是常用后台启动程序的常用方法，如果在交互命令行中运行程序，我们很容易就终止它。在交互环境下，我们的输出一般都会直接输出到当前界面，在后台启动的时候通常会定向到文件，那通常情况是下面这个命令。</p>
+</blockquote>
+<p>nohup command &gt;X.file 2 &gt;&amp;1 &amp;</p>
+<blockquote>
+<p>其中1表示标准输出。2表示文件标准错误输出。2&gt;1&amp;即将两者合并，但是合并到哪里，就是X.file.</p>
+</blockquote>
+<h4 id="3-查看进程"><a href="#3-查看进程" class="headerlink" title="3 查看进程"></a>3 查看进程</h4><blockquote>
+<p>有的时候我们需要查看进程是否已经启动或者尝试终止进程。经常使用的命令为ps -ef—列出当前正在运行的程序，那如何定位我们想要查看的进程A，这个时候使用grep，即ps -ef| grep A.</p>
+</blockquote>
+<h4 id="4-awk"><a href="#4-awk" class="headerlink" title="4 awk"></a>4 awk</h4><blockquote>
+<p>如果文件是csv(a.csv)，按照”,”分割，需求为打印第一列和第二列</p>
+</blockquote>
+<p>awk -F “,” ‘{print 2}’ a.csv</p>
+<blockquote>
+<p>获取第三列最大值</p>
+</blockquote>
+<p>awk ‘BEGIN{max=0}{if(3}END{print max}’</p>
+<h4 id="5-tar解压缩"><a href="#5-tar解压缩" class="headerlink" title="5 tar解压缩"></a>5 tar解压缩</h4><blockquote>
+<p>解压缩命令</p>
+</blockquote>
+<p>常用参数</p>
+<blockquote>
+<p>-c:创建的tar文件<br>-x:解开tar文件<br>-t:列出tar文件中包含的文件信息<br>-r：附加新的文件到tar文件中</p>
+</blockquote>
+<p>常用命令组合</p>
+<p>tar -xvf /home/a.tar  //打开tar打包文件<br>tar -zxvf /home/a.tar.gz //解压以gzip压缩的文件<br>tar -jxvf /home/a.tar.bz2 //解压以bzip压缩的文件<br>tar -cvf /home/a.tar /home 打包/home下所有文件</p>
+<h4 id="6-scp"><a href="#6-scp" class="headerlink" title="6 scp"></a>6 scp</h4><blockquote>
+<p>通过scp命令在多台服务器中的相互复制 传输文件。为了省下输入密码，可以设置免密登录。</p>
+</blockquote>
+<p>常用组合：</p>
+<p>例子1：将A服务器中/home/a.txt 复制到B服务器的/home中<br>scp -r /home/a.txt root@B_ip:/home</p>
+<h4 id="7-林哥的死亡命令-rm-rf"><a href="#7-林哥的死亡命令-rm-rf" class="headerlink" title="7 林哥的死亡命令 rm -rf"></a>7 林哥的死亡命令 rm -rf</h4><blockquote>
+<p>翻车现场请看次条。</p>
+</blockquote>
+<h4 id="8-watch"><a href="#8-watch" class="headerlink" title="8 watch"></a>8 watch</h4><blockquote>
+<p>这个命令是动态查看命令执行的结果。比如如果需要每隔一秒高亮显示网络连接数的变化情况。则 watch -n 1 -d netstat -ant</p>
+</blockquote>
+<p>例子：每隔一秒高亮显示http连接数的变化情况</p>
+<p>watch -n 1 -d ‘pstree | grep http’</p>
+<p>例子:十秒一次输出系统的平均负载</p>
+<p>watch -n 10 ‘cat /proc/loadavg’</p>
+<h4 id="9-df"><a href="#9-df" class="headerlink" title="9 df"></a>9 df</h4><blockquote>
+<p>查看磁盘大小</p>
+</blockquote>
+<p>df -h</p>
+<p><img src="linux-df.png"></p>
+<h4 id="10-tcpdump"><a href="#10-tcpdump" class="headerlink" title="10 tcpdump"></a>10 tcpdump</h4><blockquote>
+<p>和它类似的工具在windows中是wireshark，其采用底层库winpcap/libpcap实现。采用了bpf过滤机制。下面我们看看提供的不同参数的含义。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">参数名</th>
+<th align="left">含义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">-n</td>
+<td align="left">使用IP地址表示主机。使用数字表示端口</td>
+</tr>
+<tr>
+<td align="center">-i</td>
+<td align="left">指定要监听的端口。如果为”-i any”表示住区所有网卡数据包</td>
+</tr>
+<tr>
+<td align="center">-v</td>
+<td align="left">输出诸如ip数据包中的TTL更加详细的信息</td>
+</tr>
+<tr>
+<td align="center">-t</td>
+<td align="left">不打印时间戳</td>
+</tr>
+<tr>
+<td align="center">-e</td>
+<td align="left">显示以太网帧头部信息</td>
+</tr>
+<tr>
+<td align="center">-c</td>
+<td align="left">仅仅抓取指定数量的数据包</td>
+</tr>
+<tr>
+<td align="center">-x</td>
+<td align="left">按照十六进制显示数据包内容</td>
+</tr>
+<tr>
+<td align="center">-X</td>
+<td align="left">不仅仅输出-x结果还输出十六进制对应的ASCII字符</td>
+</tr>
+<tr>
+<td align="center">-s</td>
+<td align="left">设置抓包时的抓包长度</td>
+</tr>
+<tr>
+<td align="center">-w</td>
+<td align="left">将输出结果定向到某个文件，一般为pcap后缀</td>
+</tr>
+<tr>
+<td align="center">-r</td>
+<td align="left">从文件读取数据包并显示数字表示端口</td>
+</tr>
+<tr>
+<td align="center">-i</td>
+<td align="left">指定要监听的端口。如果为”-i any”表示住区所有网卡数据包</td>
+</tr>
+<tr>
+<td align="center">-v</td>
+<td align="left">输出诸如ip数据包中的TTL更加详细的信息</td>
+</tr>
+<tr>
+<td align="center">-t</td>
+<td align="left">不打印时间戳</td>
+</tr>
+<tr>
+<td align="center">-e</td>
+<td align="left">显示以太网帧头部信息</td>
+</tr>
+<tr>
+<td align="center">-c</td>
+<td align="left">仅仅抓取指定数量的数据包</td>
+</tr>
+<tr>
+<td align="center">-x</td>
+<td align="left">按照十六进制显示数据包内容</td>
+</tr>
+<tr>
+<td align="center">-X</td>
+<td align="left">不仅仅输出-x结果还输出十六进制对应的ASCII字符</td>
+</tr>
+<tr>
+<td align="center">-s</td>
+<td align="left">设置抓包时的抓包长度</td>
+</tr>
+<tr>
+<td align="center">-w</td>
+<td align="left">将输出结果定向到某个文件，一般为pcap后缀</td>
+</tr>
+<tr>
+<td align="center">-r</td>
+<td align="left">从文件读取数据包并显示</td>
+</tr>
+</tbody></table>
+<p>知道了相关参数，下面看几个案例</p>
+<table>
+<thead>
+<tr>
+<th>执行任务</th>
+<th>执行命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>捕获特定网口数据包</td>
+<td>tcpdump -i eth0</td>
+</tr>
+<tr>
+<td>捕获特定个数(1000)的包</td>
+<td>tcpdump -c 1000 -i eth0</td>
+</tr>
+<tr>
+<td>将捕获的包保存到文件</td>
+<td>tcpdump -w a.pcap -i eth0</td>
+</tr>
+<tr>
+<td>读取pcap格式的包</td>
+<td>tcpdump -r a.pcap</td>
+</tr>
+<tr>
+<td>增加捕获包的时间戳</td>
+<td>tcpdump -n -ttt -i eth0</td>
+</tr>
+<tr>
+<td>指定捕获包的协议类型</td>
+<td>tcpdump -i eth0 arp</td>
+</tr>
+<tr>
+<td>捕获指定端口</td>
+<td>tcpdump -i eth0 post 22</td>
+</tr>
+<tr>
+<td>捕获特定目标ip+port的包</td>
+<td>tcpdump -i eth0 dst address and port 22</td>
+</tr>
+<tr>
+<td>捕获DNS请求和响应</td>
+<td>tcpdump -i eth0 -s0 port 53</td>
+</tr>
+<tr>
+<td>匹配Http请求头</td>
+<td>tcpdump -s 0 -v -n -l</td>
+</tr>
+<tr>
+<td>将捕获的包保存到文件</td>
+<td>tcpdump -w a.pcap -i eth0</td>
+</tr>
+<tr>
+<td>读取pcap格式的包</td>
+<td>tcpdump -r a.pcap</td>
+</tr>
+<tr>
+<td>增加捕获包的时间戳</td>
+<td>tcpdump -n -ttt -i eth0</td>
+</tr>
+<tr>
+<td>指定捕获包的协议类型</td>
+<td>tcpdump -i eth0 arp</td>
+</tr>
+<tr>
+<td>捕获指定端口</td>
+<td>tcpdump -i eth0 post 22</td>
+</tr>
+<tr>
+<td>捕获DNS请求和响应</td>
+<td>tcpdump -i eth0 -s0 port 53</td>
+</tr>
+<tr>
+<td>捕获特定目标ip+port的包</td>
+<td>tcpdump -i eth0 dst address and port 22</td>
+</tr>
+<tr>
+<td>匹配Http请求头</td>
+<td>tcpdump -s 0 -v -n -l</td>
+</tr>
+</tbody></table>
+<h4 id="11-lsof"><a href="#11-lsof" class="headerlink" title="11 lsof"></a>11 lsof</h4><blockquote>
+<p>列出当前系统打开的文件描述符工具。可以得知感兴趣的描述符是被哪些进程使用<br>同样，我们看看相关参数</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-i</td>
+<td>显示sokcet文件描述符</td>
+</tr>
+<tr>
+<td>-c</td>
+<td>显示指定的命令打开的所有文件描述符</td>
+</tr>
+<tr>
+<td>-t</td>
+<td>仅显示打开了目标文件描述符的进程pid</td>
+</tr>
+</tbody></table>
+<p>老规矩，上几个例子</p>
+<table>
+<thead>
+<tr>
+<th>执行任务</th>
+<th>命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>列出所有的网络链接</td>
+<td>lsof -i</td>
+</tr>
+<tr>
+<td>列出所有udp的网络链接</td>
+<td>lsof -i udp</td>
+</tr>
+<tr>
+<td>列出谁在使用某个端口</td>
+<td>lsof -i :3306</td>
+</tr>
+<tr>
+<td>列出谁在使用特定的tcp端口</td>
+<td>lsof -i tcp:80</td>
+</tr>
+<tr>
+<td>根据文件描述范围列出文件信息</td>
+<td>lsof -d 2-3</td>
+</tr>
+</tbody></table>
+<h4 id="12-nc"><a href="#12-nc" class="headerlink" title="12 nc"></a>12 nc</h4><blockquote>
+<p>nc–&gt;“瑞士军刀”。不知大家在渗透过程中，拿了shell有没有使用nc搞点事儿。它用来快速构建网络链接。常用来调试客户端程序。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-i</td>
+<td>设置数据包传送的时间间隔</td>
+</tr>
+<tr>
+<td>-l</td>
+<td>以服务器方式运行。默认为客户端运行</td>
+</tr>
+<tr>
+<td>-k</td>
+<td>重复接受并处理某个端口上的所有链接</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>以客户端运行时强制其使用指定端口</td>
+</tr>
+<tr>
+<td>-C</td>
+<td>将CR和LF两个字符作为结束符</td>
+</tr>
+<tr>
+<td>-u</td>
+<td>使用udp协议。默认tcp协议</td>
+</tr>
+<tr>
+<td>-X</td>
+<td>nc客户端余代理服务器通信时默认为socks5协议。</td>
+</tr>
+<tr>
+<td>-z</td>
+<td>扫描目标机器某个范围服务是否开启</td>
+</tr>
+</tbody></table>
+<p>小贱上案例</p>
+<table>
+<thead>
+<tr>
+<th>执行任务</th>
+<th>执行命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>扫描机器A端口号在30-40的服务</td>
+<td>nc -z A 30-40</td>
+</tr>
+<tr>
+<td>连接服务器A 端口号为5000</td>
+<td>nc -C A 5000</td>
+</tr>
+<tr>
+<td>传送文件</td>
+<td>MachineA:nc -v -n ip portE:\a.exe</td>
+</tr>
+</tbody></table>
+<h4 id="13-netstat"><a href="#13-netstat" class="headerlink" title="13 netstat"></a>13 netstat</h4><blockquote>
+<p>netstat是一个网络信息统计工具。它可以得到网卡接口上全部了解，路由表信息，网卡接口信息等。通常在网络编程中我们用它来显示TCP连接以及状态信息。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-n</td>
+<td>使用IP地址表示主机</td>
+</tr>
+<tr>
+<td>-a</td>
+<td>显示结果中包含监听的socket</td>
+</tr>
+<tr>
+<td>-t</td>
+<td>仅显示TCP连接</td>
+</tr>
+<tr>
+<td>-r</td>
+<td>显示路由信息</td>
+</tr>
+<tr>
+<td>-i</td>
+<td>显示网卡接口数据流量</td>
+</tr>
+<tr>
+<td>-c</td>
+<td>每隔1s输出一次</td>
+</tr>
+<tr>
+<td>-o</td>
+<td>显示socket定时器的信息</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>显示socket所属的进程的PID和名字</td>
+</tr>
+</tbody></table>
+<p>下面列举几个常用例子</p>
+<table>
+<thead>
+<tr>
+<th>执行任务</th>
+<th>执行命令</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>列出所有连接</td>
+<td>netstat -a</td>
+</tr>
+<tr>
+<td>只列出TCP或者UDP</td>
+<td>netstat -at/netstat -au</td>
+</tr>
+<tr>
+<td>列出监听中的连接</td>
+<td>netstat -tnl</td>
+</tr>
+<tr>
+<td>获取进程名、进程号以及用户 ID</td>
+<td>nestat  -nlpt</td>
+</tr>
+<tr>
+<td>打印统计信息</td>
+<td>netstat -s</td>
+</tr>
+<tr>
+<td>netstat持续输出</td>
+<td>netstat -ct</td>
+</tr>
+<tr>
+<td>打印active状态的连接</td>
+<td>netstat -atnp | grep ESTA</td>
+</tr>
+<tr>
+<td>查看服务是否运行(npt)</td>
+<td>netstat -aple | grep ntp</td>
+</tr>
+</tbody></table>
+<h4 id="14-vmstat"><a href="#14-vmstat" class="headerlink" title="14 vmstat"></a>14 vmstat</h4><blockquote>
+<p>vmstat能够实时输出系统的进程信息，内存使用，cpu使用等资源的使用情况</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>-f</td>
+<td>显示系统自启动以来执行的fork次数</td>
+</tr>
+<tr>
+<td>-s</td>
+<td>显示内存相关统计信息</td>
+</tr>
+<tr>
+<td>-d</td>
+<td>显示磁盘相关统计信息</td>
+</tr>
+<tr>
+<td>-p</td>
+<td>显示指定磁盘分区统计信息</td>
+</tr>
+<tr>
+<td>count</td>
+<td>采样次数。</td>
+</tr>
+</tbody></table>
+<p>看一下vmstat都有哪些输出字段。<br><img src="linux-vmstat.png"></p>
+<table>
+<thead>
+<tr>
+<th>字段名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>procs</td>
+<td>r表示等待运行的而进程数目。b表示处于不可中断睡眠状态的进程数目</td>
+</tr>
+<tr>
+<td>memory</td>
+<td>swpd：使用的虚拟内存量。free：空闲内存量。buff：用作缓冲区的内存量。cache：用作缓存的内存量。</td>
+</tr>
+<tr>
+<td>swap</td>
+<td>si：从磁盘换入的内存量（/s）。so：交换到磁盘的内存量（/s）。</td>
+</tr>
+<tr>
+<td>io</td>
+<td>bi：从块设备接收的块（blocks/s）。bo：发送到块设备的块（blocks/s）。</td>
+</tr>
+<tr>
+<td>system</td>
+<td>in：每秒中断的次数，包括时钟。cs：每秒上下文切换的次数。</td>
+</tr>
+<tr>
+<td>这里注意哈，如果查看磁盘的更加详细信息，有另外iostat所得到的信心就更加详细哟</td>
+<td></td>
+</tr>
+</tbody></table>
+<h4 id="15-mpstat"><a href="#15-mpstat" class="headerlink" title="15 mpstat"></a>15 mpstat</h4><blockquote>
+<p>能够实时监测多处理器系统中各个cpu的使用情况。这个命令的执行需要安装sysstat，在centos中执行yum install systat就好了。<br><img src=""></p>
+</blockquote>
+<p>然后我们看看各个字段什么意思。</p>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>cpu</td>
+<td>表示当前条信息属于哪个cpu的数据</td>
+</tr>
+<tr>
+<td>%usr</td>
+<td>进程运行在用户空间所占cpu运行时间的比例</td>
+</tr>
+<tr>
+<td>%nice</td>
+<td>nice值为负的进程运行在用户空间的时间占cpu总运行时间的比例</td>
+</tr>
+<tr>
+<td>%iowait</td>
+<td>cpu等待磁盘操作的时间占cpu总运行时间的比例</td>
+</tr>
+<tr>
+<td>%irq</td>
+<td>cpu用于处理硬件中断时间占cpu总运行时间的比例</td>
+</tr>
+<tr>
+<td>%soft</td>
+<td>cpu用于处理软件中断的时间占cpu用运行时间的比例</td>
+</tr>
+<tr>
+<td>%steal</td>
+<td>一对虚拟cpu。当超级管理员在处理某个虚拟cpu时，另一个等待它处理完才能运行。这段等待时间表示为steal时间占总运行时间的比例</td>
+</tr>
+<tr>
+<td>%guest</td>
+<td>运行虚拟cpu时间占cpu总运行时间的比例</td>
+</tr>
+<tr>
+<td>%idle</td>
+<td>系统空闲时间占cpu总运行时间的比例</td>
+</tr>
+</tbody></table>
+<h4 id="16-split"><a href="#16-split" class="headerlink" title="16 split"></a>16 split</h4><blockquote>
+<p>将文件分割为数个。</p>
+</blockquote>
+<p>split -5 a.txt//将a.txt每5行分割为一个文件</p>
+<h4 id="17-wc-c-filename"><a href="#17-wc-c-filename" class="headerlink" title="17 wc -c +filename"></a>17 wc -c +filename</h4><blockquote>
+<p>统计文件中单词的个数。</p>
+</blockquote>
+<h4 id="18-more-less"><a href="#18-more-less" class="headerlink" title="18 more/less"></a>18 more/less</h4><blockquote>
+<p>一页一页显示，通过空白键显示下一页/上一页</p>
+</blockquote>
+<h4 id="19-head-tail"><a href="#19-head-tail" class="headerlink" title="19 head/tail"></a>19 head/tail</h4><blockquote>
+<p>查看某文件前几行或者后几行</p>
+</blockquote>
+<h4 id="20-diff"><a href="#20-diff" class="headerlink" title="20 diff"></a>20 diff</h4><blockquote>
+<p>diff -c file1 file2 //显示两个文件的差异</p>
+</blockquote>
+
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Wilson</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://www.t1d.ltd/2020/11/07/linux/linux-tips/">https://www.t1d.ltd/2020/11/07/linux/linux-tips/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">Wilson</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Linux/">
+                                    <span class="chip bg-color">Linux</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2020/11/08/movie/tenet/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="【大聪】《信条》两万字深度解析！">
+                        
+                        <span class="card-title">【大聪】《信条》两万字深度解析！</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-08
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Movie/" class="post-category">
+                                    Movie
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Movie/">
+                        <span class="chip bg-color">Movie</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/11/07/math/3-formula/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="3个神奇的数学公式">
+                        
+                        <span class="card-title">3个神奇的数学公式</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-07
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Math/" class="post-category">
+                                    Math
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Math/">
+                        <span class="chip bg-color">Math</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+<!-- 代码块折行 -->
+
+<style type="text/css">
+code[class*="language-"], pre[class*="language-"] { white-space: pre !important; }
+</style>
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
+    });
+</script>
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="2202952182"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+    
+    <div class="container row center-align" style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2020-2022</span>
+            
+            <span id="year">2020</span>
+            <a href="/about" target="_blank">Wilson</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">9.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <br>
+            
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="http://beian.miit.gov.cn/" target="_blank">沪ICP备2020033024号-1</a>
+            </span>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/wilson99" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:944930708@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=944930708" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 944930708" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>

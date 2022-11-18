@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>健康生活日志W</title>
+  
+  <subtitle>健康生活日志W</subtitle>
+  <link href="https://www.t1d.ltd/atom.xml" rel="self"/>
+  
+  <link href="https://www.t1d.ltd/"/>
+  <updated>2022-11-18T06:59:53.695Z</updated>
+  <id>https://www.t1d.ltd/</id>
+  
+  <author>
+    <name>Wilson</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://www.t1d.ltd/2022/11/18/hello-world/"/>
+    <id>https://www.t1d.ltd/2022/11/18/hello-world/</id>
+    <published>2022-11-18T06:59:53.692Z</published>
+    <updated>2022-11-18T06:59:53.695Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Design Patterns</title>
+    <link href="https://www.t1d.ltd/2021/01/04/architecture/design-pattern/"/>
+    <id>https://www.t1d.ltd/2021/01/04/architecture/design-pattern/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.645Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;面向对象6大设计原则&quot;&gt;&lt;a href=&quot;#面向对象6大设计原则&quot; class=&quot;headerlink&quot; title=&quot;面向对象6大设计原则&quot;&gt;&lt;/a&gt;面向对象6大设计原则&lt;/h1&gt;&lt;h2 id=&quot;1-开闭原则&quot;&gt;&lt;a href=&quot;#1-开闭原则&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Architecture" scheme="https://www.t1d.ltd/categories/Architecture/"/>
+    
+    
+    <category term="Architecture" scheme="https://www.t1d.ltd/tags/Architecture/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Screen Tips</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-screen-tips/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-screen-tips/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.648Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;常用Screen参数&quot;&gt;&lt;a href=&quot;#常用Screen参数&quot; class=&quot;headerlink&quot; title=&quot;常用Screen参数&quot;&gt;&lt;/a&gt;常用Screen参数&lt;/h1&gt;&lt;p&gt;screen -S yourname -&amp;gt;</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Shell快捷键</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-shell-shortcut-key/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-shell-shortcut-key/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.650Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;1.控制命令&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ctrl + l：清屏（与clear命令效果相同）&lt;/p&gt;
+&lt;p&gt;Ctrl + c：终止当前正在执行的命令&lt;/p&gt;
+&lt;p&gt;Ctrl +</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Tmux Tips</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-tmux-tips/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-tmux-tips/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.670Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;strong&gt;常用到的几个组合键：&lt;/strong&gt;&lt;br&gt;ctrl+b ?            显示快捷键帮助&lt;br&gt;ctrl+b 空格键       采用下一个内置布局，这个很有意思，在多屏时，用这个就会将多有屏幕竖着展示&lt;br&gt;ctrl+b !         </summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VIM Plugins</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/vim-plugins/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/vim-plugins/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;VundleVIM&quot;&gt;&lt;a href=&quot;#VundleVIM&quot; class=&quot;headerlink&quot; title=&quot;VundleVIM&quot;&gt;&lt;/a&gt;VundleVIM&lt;/h3&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux VIM Tips</title>
+    <link href="https://www.t1d.ltd/2021/01/04/linux/linux-vim-tips/"/>
+    <id>https://www.t1d.ltd/2021/01/04/linux/linux-vim-tips/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.673Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Online-Help&quot;&gt;&lt;a href=&quot;#Online-Help&quot; class=&quot;headerlink&quot; title=&quot;Online Help&quot;&gt;&lt;/a&gt;Online Help&lt;/h1&gt;&lt;p&gt;:help x -&amp;gt; Normal mode</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ScrumMaster</title>
+    <link href="https://www.t1d.ltd/2021/01/04/projectmanagement/scrummaster/"/>
+    <id>https://www.t1d.ltd/2021/01/04/projectmanagement/scrummaster/</id>
+    <published>2021-01-03T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.692Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;活动的目标，自管理团队&quot;&gt;&lt;a href=&quot;#活动的目标，自管理团队&quot; class=&quot;headerlink&quot; title=&quot;活动的目标，自管理团队&quot;&gt;&lt;/a&gt;&lt;strong&gt;活动的目标，自管理团队&lt;/strong&gt;&lt;/h4&gt;&lt;h4</summary>
+        
+      
+    
+    
+    
+    <category term="Project Management" scheme="https://www.t1d.ltd/categories/Project-Management/"/>
+    
+    
+    <category term="Project Management" scheme="https://www.t1d.ltd/tags/Project-Management/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>机器学习实战</title>
+    <link href="https://www.t1d.ltd/2021/01/03/machine-learning/hands-on-ml/"/>
+    <id>https://www.t1d.ltd/2021/01/03/machine-learning/hands-on-ml/</id>
+    <published>2021-01-02T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.699Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;第一部分-机器学习的基础知识&quot;&gt;&lt;a href=&quot;#第一部分-机器学习的基础知识&quot; class=&quot;headerlink&quot; title=&quot;第一部分    机器学习的基础知识&quot;&gt;&lt;/a&gt;第一部分    机器学习的基础知识&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="Machine Learning" scheme="https://www.t1d.ltd/categories/Machine-Learning/"/>
+    
+    
+    <category term="Scikit-Learn Keras TensorFlow" scheme="https://www.t1d.ltd/tags/Scikit-Learn-Keras-TensorFlow/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>colab clone github至google drive</title>
+    <link href="https://www.t1d.ltd/2020/11/19/machine-learning/colab-clone-github/"/>
+    <id>https://www.t1d.ltd/2020/11/19/machine-learning/colab-clone-github/</id>
+    <published>2020-11-18T16:00:00.000Z</published>
+    <updated>2022-11-18T06:59:53.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;pre class=&quot; language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; google&lt;span class=&quot;token</summary>
+        
+      
+    
+    
+    
+    <category term="Machine Learninig" scheme="https://www.t1d.ltd/categories/Machine-Learninig/"/>
+    
+    
+    <category term="colab" scheme="https://www.t1d.ltd/tags/colab/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>张量、矩阵和向量区别</title>
+    <link href="https://www.t1d.ltd/2020/11/09/machine-learning/tensor-matrix-vector/"/>
+    <id>https://www.t1d.ltd/2020/11/09/machine-learning/tensor-matrix-vector/</id>
+    <published>2020-11-09T03:30:47.000Z</published>
+    <updated>2022-11-18T06:59:53.706Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;深度学习中会经常涉及到张量的维数、向量的维数的概念，我发现自己一直把它们给混淆了，原因是被一些约定俗成的叫法扰乱了，下面来介绍一下它们的区别。&lt;/p&gt;
+&lt;p&gt;首先，张量的维数等价于张量的阶数。&lt;br&gt;0维的张量就是标量，1维的张量就是向量，2维的张量就是矩阵，大于等于3维的</summary>
+        
+      
+    
+    
+    
+    <category term="Math" scheme="https://www.t1d.ltd/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://www.t1d.ltd/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【大聪】《信条》两万字深度解析！</title>
+    <link href="https://www.t1d.ltd/2020/11/08/movie/tenet/"/>
+    <id>https://www.t1d.ltd/2020/11/08/movie/tenet/</id>
+    <published>2020-11-08T04:00:51.000Z</published>
+    <updated>2022-11-18T06:59:53.687Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;【大聪】《信条》第1阶观影指南，挑战你的脑回路极限（无剧透）&quot;&gt;&lt;a href=&quot;#【大聪】《信条》第1阶观影指南，挑战你的脑回路极限（无剧透）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Movie" scheme="https://www.t1d.ltd/categories/Movie/"/>
+    
+    
+    <category term="Movie" scheme="https://www.t1d.ltd/tags/Movie/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux Tips</title>
+    <link href="https://www.t1d.ltd/2020/11/07/linux/linux-tips/"/>
+    <id>https://www.t1d.ltd/2020/11/07/linux/linux-tips/</id>
+    <published>2020-11-07T14:39:12.000Z</published>
+    <updated>2022-11-18T06:59:53.653Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;20-linux-cmd.png&quot;&gt;&lt;/p&gt;
+&lt;h4 id=&quot;1-查看目录以及权限&quot;&gt;&lt;a href=&quot;#1-查看目录以及权限&quot; class=&quot;headerlink&quot; title=&quot;1 查看目录以及权限&quot;&gt;&lt;/a&gt;1</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/categories/Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://www.t1d.ltd/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>3个神奇的数学公式</title>
+    <link href="https://www.t1d.ltd/2020/11/07/math/3-formula/"/>
+    <id>https://www.t1d.ltd/2020/11/07/math/3-formula/</id>
+    <published>2020-11-07T11:54:33.000Z</published>
+    <updated>2022-11-18T06:59:53.679Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一：拉马努金恒等式&quot;&gt;&lt;a href=&quot;#一：拉马努金恒等式&quot; class=&quot;headerlink&quot; title=&quot;一：拉马努金恒等式&quot;&gt;&lt;/a&gt;一：拉马努金恒等式&lt;/h3&gt;&lt;p&gt;&lt;font size=&quot;5&quot;&gt;&lt;/font&gt;&lt;/p&gt;&lt;center&gt;&lt;font</summary>
+        
+      
+    
+    
+    
+    <category term="Math" scheme="https://www.t1d.ltd/categories/Math/"/>
+    
+    
+    <category term="Math" scheme="https://www.t1d.ltd/tags/Math/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TensorFlow 学习笔记</title>
+    <link href="https://www.t1d.ltd/2020/11/07/machine-learning/tensorflow-notes/"/>
+    <id>https://www.t1d.ltd/2020/11/07/machine-learning/tensorflow-notes/</id>
+    <published>2020-11-07T08:58:43.000Z</published>
+    <updated>2022-11-18T06:59:53.710Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;构建模型的3种方法&quot;&gt;&lt;a href=&quot;#构建模型的3种方法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Machine Learning" scheme="https://www.t1d.ltd/categories/Machine-Learning/"/>
+    
+    
+    <category term="TensorFlow" scheme="https://www.t1d.ltd/tags/TensorFlow/"/>
+    
+  </entry>
+  
+</feed>

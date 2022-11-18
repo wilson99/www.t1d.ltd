@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="2022/11/18/hello-world/"/>
+      <url>2022/11/18/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Design Patterns</title>
+      <link href="2021/01/04/architecture/design-pattern/"/>
+      <url>2021/01/04/architecture/design-pattern/</url>
+      
+        <content type="html"><![CDATA[<h1 id="面向对象6大设计原则"><a href="#面向对象6大设计原则" class="headerlink" title="面向对象6大设计原则"></a>面向对象6大设计原则</h1><h2 id="1-开闭原则"><a href="#1-开闭原则" class="headerlink" title="1. 开闭原则"></a>1. 开闭原则</h2><h2 id="2-单一原则"><a href="#2-单一原则" class="headerlink" title="2. 单一原则"></a>2. 单一原则</h2><h2 id="3-里式替换原则"><a href="#3-里式替换原则" class="headerlink" title="3. 里式替换原则"></a>3. 里式替换原则</h2><h2 id="4-迪米特原则"><a href="#4-迪米特原则" class="headerlink" title="4. 迪米特原则"></a>4. 迪米特原则</h2><h2 id="5-依赖倒置原则"><a href="#5-依赖倒置原则" class="headerlink" title="5. 依赖倒置原则"></a>5. 依赖倒置原则</h2><h2 id="6-接口隔离原则"><a href="#6-接口隔离原则" class="headerlink" title="6. 接口隔离原则"></a>6. 接口隔离原则</h2><h1 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h1><h2 id="1-创建型模式"><a href="#1-创建型模式" class="headerlink" title="1. 创建型模式"></a>1. 创建型模式</h2><h3 id="1-1-单例模式"><a href="#1-1-单例模式" class="headerlink" title="1.1 单例模式"></a>1.1 单例模式</h3><h4 id="懒汉式"><a href="#懒汉式" class="headerlink" title="懒汉式"></a>懒汉式</h4><h4 id="非懒汉式"><a href="#非懒汉式" class="headerlink" title="非懒汉式"></a>非懒汉式</h4><h4 id="Java枚举类型"><a href="#Java枚举类型" class="headerlink" title="Java枚举类型"></a>Java枚举类型</h4><h4 id="两段锁式"><a href="#两段锁式" class="headerlink" title="两段锁式"></a>两段锁式</h4><h3 id="1-2-工厂方法"><a href="#1-2-工厂方法" class="headerlink" title="1.2 工厂方法"></a>1.2 工厂方法</h3><h3 id="1-3-抽象工厂"><a href="#1-3-抽象工厂" class="headerlink" title="1.3 抽象工厂"></a>1.3 抽象工厂</h3><h3 id="1-4-Builder模式"><a href="#1-4-Builder模式" class="headerlink" title="1.4 Builder模式"></a>1.4 Builder模式</h3><h3 id="1-5-Prototype模式"><a href="#1-5-Prototype模式" class="headerlink" title="1.5 Prototype模式"></a>1.5 Prototype模式</h3><h2 id="2-结构型模式"><a href="#2-结构型模式" class="headerlink" title="2. 结构型模式"></a>2. 结构型模式</h2><h3 id="2-1-Adapter"><a href="#2-1-Adapter" class="headerlink" title="2.1 Adapter"></a>2.1 Adapter</h3><h3 id="2-2-Bridge"><a href="#2-2-Bridge" class="headerlink" title="2.2 Bridge"></a>2.2 Bridge</h3><h3 id="2-3-Decorator"><a href="#2-3-Decorator" class="headerlink" title="2.3 Decorator"></a>2.3 Decorator</h3><h3 id="2-4-Facade"><a href="#2-4-Facade" class="headerlink" title="2.4 Facade"></a>2.4 Facade</h3><h3 id="2-5-FlyWeight"><a href="#2-5-FlyWeight" class="headerlink" title="2.5 FlyWeight"></a>2.5 FlyWeight</h3><h3 id="2-6-Proxy"><a href="#2-6-Proxy" class="headerlink" title="2.6 Proxy"></a>2.6 Proxy</h3><h4 id="静态代理"><a href="#静态代理" class="headerlink" title="静态代理"></a>静态代理</h4><h4 id="JDK动态代理"><a href="#JDK动态代理" class="headerlink" title="JDK动态代理"></a>JDK动态代理</h4><h4 id="GCLIB动态代理"><a href="#GCLIB动态代理" class="headerlink" title="GCLIB动态代理"></a>GCLIB动态代理</h4><h2 id="3-行为型模式"><a href="#3-行为型模式" class="headerlink" title="3. 行为型模式"></a>3. 行为型模式</h2><h3 id="3-1-Chains-of-Responsibility"><a href="#3-1-Chains-of-Responsibility" class="headerlink" title="3.1 Chains of Responsibility"></a>3.1 Chains of Responsibility</h3><h3 id="3-2-Command"><a href="#3-2-Command" class="headerlink" title="3.2 Command"></a>3.2 Command</h3><h3 id="3-3-Intepretor"><a href="#3-3-Intepretor" class="headerlink" title="3.3 Intepretor"></a>3.3 Intepretor</h3><h3 id="3-4-Iterator"><a href="#3-4-Iterator" class="headerlink" title="3.4 Iterator"></a>3.4 Iterator</h3><h3 id="3-5-Mediator"><a href="#3-5-Mediator" class="headerlink" title="3.5 Mediator"></a>3.5 Mediator</h3><h3 id="3-6-Memento"><a href="#3-6-Memento" class="headerlink" title="3.6 Memento"></a>3.6 Memento</h3><h3 id="3-7-Observer"><a href="#3-7-Observer" class="headerlink" title="3.7 Observer"></a>3.7 Observer</h3><h3 id="3-8-State"><a href="#3-8-State" class="headerlink" title="3.8 State"></a>3.8 State</h3><h3 id="3-9-Strategy"><a href="#3-9-Strategy" class="headerlink" title="3.9 Strategy"></a>3.9 Strategy</h3><h3 id="3-10-Template"><a href="#3-10-Template" class="headerlink" title="3.10 Template"></a>3.10 Template</h3><h3 id="3-11-Visitor"><a href="#3-11-Visitor" class="headerlink" title="3.11 Visitor"></a>3.11 Visitor</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> Architecture </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Architecture </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Screen Tips</title>
+      <link href="2021/01/04/linux/linux-screen-tips/"/>
+      <url>2021/01/04/linux/linux-screen-tips/</url>
+      
+        <content type="html"><![CDATA[<h1 id="常用Screen参数"><a href="#常用Screen参数" class="headerlink" title="常用Screen参数"></a>常用Screen参数</h1><p>screen -S yourname -&gt; 新建一个叫yourname的session<br>screen -ls         -&gt; 列出当前所有的session<br>screen -r yourname -&gt; 回到yourname这个session<br>screen -d yourname -&gt; 远程detach某个session<br>screen -d -r yourname -&gt; 结束当前session并回到yourname这个session<br>screen -x yourname -&gt; attach一个已经attached的session</p><h1 id="在Session下，使用ctrl-a-C-a"><a href="#在Session下，使用ctrl-a-C-a" class="headerlink" title="在Session下，使用ctrl+a(C-a)"></a>在Session下，使用ctrl+a(C-a)</h1><p>C-a ? -&gt; 显示所有键绑定信息<br>C-a c -&gt; 创建一个新的运行shell的窗口并切换到该窗口<br>C-a n -&gt; Next，切换到下一个 window<br>C-a p -&gt; Previous，切换到前一个 window<br>C-a 0..9 -&gt; 切换到第 0..9 个 window<br>Ctrl+a [Space] -&gt; 由视窗0循序切换到视窗9<br>C-a C-a -&gt; 在两个最近使用的 window 间切换<br>C-a x -&gt; 锁住当前的 window，需用用户密码解锁<br>C-a d -&gt; detach，暂时离开当前session，将目前的 screen session (可能含有多个 windows) 丢到后台执行，并会回到还没进 screen 时的状态，此时在 screen session 里，每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。<br>C-a z -&gt; 把当前session放到后台执行，用 shell 的 fg 命令则可回去。<br>C-a w -&gt; 显示所有窗口列表<br>C-a t -&gt; time，显示当前时间，和系统的 load<br>C-a k -&gt; kill window，强行关闭当前的 window<br>C-a [ -&gt; 进入 copy mode，在 copy mode 下可以回滚、搜索、复制就像用使用 vi 一样<br>    C-b Backward，PageUp<br>    C-f Forward，PageDown<br>    H(大写) High，将光标移至左上角<br>    L Low，将光标移至左下角<br>    0 移到行首<br>    $ 行末<br>    w forward one word，以字为单位往前移<br>    b backward one word，以字为单位往后移<br>    Space 第一次按为标记区起点，第二次按为终点<br>    Esc 结束 copy mode<br>C-a ] -&gt; paste，把刚刚在 copy mode 选定的内容贴上<br>C-a A -&gt; 改名当前窗口<br>C-a S -&gt; 上下分屏窗格<br>C-a tag -&gt; 切换窗格<br>C-a X -&gt; 关闭当前焦点所在窗格<br>C-a Q -&gt; 关闭除当前窗格之外其他的所有窗格<br>C-a : -&gt; 进入命令方式<br>    split -v -&gt; 左右分窗格<br>    split -&gt; 上下分窗格</p><p>man screen 查找DEFAULT KEY BINDINGS查看所有快捷键</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Shell快捷键</title>
+      <link href="2021/01/04/linux/linux-shell-shortcut-key/"/>
+      <url>2021/01/04/linux/linux-shell-shortcut-key/</url>
+      
+        <content type="html"><![CDATA[<p><strong>1.控制命令</strong></p><p>Ctrl + l：清屏（与clear命令效果相同）</p><p>Ctrl + c：终止当前正在执行的命令</p><p>Ctrl + z：挂起命令，把当前进程转到后台运行，使用fg命令恢复，bg命令继续后台运行，jobs命令查询后台进程。</p><p>Ctrl + d : 退出当前 Shell</p><p><strong>2.编辑命令</strong></p><p><strong>光标移动</strong></p><p>Ctrl + a ：移到命令行首</p><p>Ctrl + e ：移到命令行尾</p><p>Ctrl + f ：前移（向右移动）一个字符</p><p>Ctrl + b ：后退（向左移动）一个字符</p><p>Alt + f ：前移（向右移动）一个单词</p><p>Alt + b ：后退（向左移动）一个单词</p><p>Ctrl + xx：在命令行首和光标之间移动</p><p><strong>3.文本修改</strong></p><p><strong>补全、删除、粘贴</strong></p><p>tab : 自动补全命令</p><p>Ctrl + u ：从光标处删除至命令行首</p><p>Ctrl + k ：从光标处删除至命令行尾</p><p>Ctrl + w ：从光标处删除至字首</p><p>Alt + d ：从光标处删除至字尾</p><p>Ctrl + d ：删除光标处（或光标后）的字符（如果光标前后都没有字符，即命令行为空的时候，则会退出shell）</p><p>Ctrl + h ：删除光标前的字符(与backspace键相同)</p><p>Alt + Backspace：与 Ctrl + w 类似，分隔符有些差别</p><p>Ctrl + y ：粘贴至光标后</p><p><strong>4.改变大小写</strong></p><p>Alt + c ：从光标处更改为首字母大写的单词</p><p>Alt + u ：从光标处更改为全部大写的单词</p><p>Alt + l ：从光标处更改为全部小写的单词</p><p><strong>5.交换字符、单词位置</strong></p><p>Ctrl + t ：交换光标处和之前的字符（ESC+t相同）</p><p>Alt + t ：交换光标处和之前的单词</p><p><strong>6.重新执行命令</strong></p><p>Ctrl + p：历史中的上一条命令</p><p>Ctrl + n：历史中的下一条命令</p><p>Alt + .：使用上一条命令的最后一个参数（会直接在当前光标位置显示）</p><p>Ctrl + r：搜索之前使用过的命令</p><p>Ctrl + g：从历史搜索模式退出</p><p><strong>7.Bang (!) 命令</strong></p><p>Bang命令算不上快捷键键，但是使用可以快捷的进行一些操作，比如重新执行之前命令、修改上一条命令并执行等等。</p><p>!!：执行上一条命令</p><p>!cc：执行最近的以cc开头的命令，如!l会执行ls命令</p><p>!$：打印上一条命令的最后一个参数，并回车执行。与Alt + .相似，但是会自动执行</p><p>!*：上一条命令的所有参数 !cc:p：仅打印以!cc的输出，但不执行，如!l:p会显示ls</p><p>!$:p：打印输出!$的输出</p><p>^blah：删除上一条命令中第一个blah，然后执行</p><p>^blah^foo：将上一条命令中的 blah 替换为 foo，然后执行</p><p>^blah^foo^：将上一条命令中所有的 blah 都替换为 foo，然后执行</p><p><strong>补充</strong><br>Ctrl + -: 撤回上一次修改<br>Alt + r: 撤回所有修改<br>man bash: 查找Commands for Moving查看所有快捷键</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Tmux Tips</title>
+      <link href="2021/01/04/linux/linux-tmux-tips/"/>
+      <url>2021/01/04/linux/linux-tmux-tips/</url>
+      
+        <content type="html"><![CDATA[<p><strong>常用到的几个组合键：</strong><br>ctrl+b ?            显示快捷键帮助<br>ctrl+b 空格键       采用下一个内置布局，这个很有意思，在多屏时，用这个就会将多有屏幕竖着展示<br>ctrl+b !            把当前窗口变为新窗口<br>ctrl+b  “           模向分隔窗口<br>ctrl+b %            纵向分隔窗口<br>ctrl+b q            显示分隔窗口的编号<br>ctrl+b o            跳到下一个分隔窗口。多屏之间的切换<br>ctrl+b 上下键      上一个及下一个分隔窗口<br>ctrl+b C-方向键    调整分隔窗口大小<br>ctrl+b &amp;           确认后退出当前tmux<br>ctrl+b [           复制模式，即将当前屏幕移到上一个的位置上，其他所有窗口都向前移动一个。<br>ctrl+b c           创建新窗口<br>ctrl+b n           选择下一个窗口<br>ctrl+b l           最后使用的窗口<br>ctrl+b p           选择前一个窗口<br>ctrl+b w           以菜单方式显示及选择窗口<br>ctrl+b s           以菜单方式显示和选择会话。这个常用到，可以选择进入哪个tmux<br>ctrl+b t           显示时钟。然后按enter键后就会恢复到shell终端状态<br>ctrl+b d           脱离当前会话；这样可以暂时返回Shell界面，输入tmux attach能够重新进入之前的会话</p><p><strong>常用命令</strong><br>tmux ls<br>tmux new -s yourname<br>tmux attach -t yourname</p><p>man tmux查找DEFAULT KEY BINDINGS查询所有快捷键</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VIM Plugins</title>
+      <link href="2021/01/04/linux/vim-plugins/"/>
+      <url>2021/01/04/linux/vim-plugins/</url>
+      
+        <content type="html"><![CDATA[<h3 id="VundleVIM"><a href="#VundleVIM" class="headerlink" title="VundleVIM"></a>VundleVIM</h3><p><a href="https://github.com/VundleVim/Vundle.vim">VundleVim/Vundle.vim: Vundle, the plug-in manager for Vim (github.com)</a></p><h4 id="1-git-clone"><a href="#1-git-clone" class="headerlink" title="1. git clone"></a>1. git clone</h4><pre><code>git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim</code></pre><h4 id="2-vi-vimrc"><a href="#2-vi-vimrc" class="headerlink" title="2. vi ~/.vimrc"></a>2. vi ~/.vimrc</h4><pre><code>set nocompatible " be iMproved, requiredfiletype off " required" set the runtime path to include Vundle and initializeset rtp+=~/.vim/bundle/Vundle.vimcall vundle#begin()" alternatively, pass a path where Vundle should install plugins"call vundle#begin('~/some/path/here')" let Vundle manage Vundle, requiredPlugin 'VundleVim/Vundle.vim'" The following are examples of different formats supported." Keep Plugin commands between vundle#begin/end." plugin on GitHub repoPlugin 'tpope/vim-fugitive'" plugin from http://vim-scripts.org/vim/scripts.html" Plugin 'L9'" Git plugin not hosted on GitHubPlugin 'git://git.wincent.com/command-t.git'" git repos on your local machine (i.e. when working on your own plugin)Plugin 'file:///home/gmarik/path/to/plugin'" The sparkup vim script is in a subdirectory of this repo called vim." Pass the path to set the runtimepath properly.Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}" Install L9 and avoid a Naming conflict if you've already installed a" different version somewhere else." Plugin 'ascenator/L9', {'name': 'newL9'}" All of your Plugins must be added before the following linecall vundle#end() " requiredfiletype plugin indent on " required" To ignore plugin indent changes, instead use:"filetype plugin on"" Brief help" :PluginList       - lists configured plugins" :PluginInstall    - installs plugins; append \`!\` to update or just :PluginUpdate" :PluginSearch foo - searches for foo; append \`!\` to refresh local cache" :PluginClean      - confirms removal of unused plugins; append \`!\` to auto-approve removal"" see :h vundle for more details or wiki for FAQ" Put your non-Plugin stuff after this line</code></pre><h4 id="3-vim-PluginInstall-qall"><a href="#3-vim-PluginInstall-qall" class="headerlink" title="3. vim +PluginInstall +qall"></a>3. vim +PluginInstall +qall</h4><h3 id="YouCompleteMe"><a href="#YouCompleteMe" class="headerlink" title="YouCompleteMe"></a>YouCompleteMe</h3><p><a href="https://github.com/ycm-core/YouCompleteMe">ycm-core/YouCompleteMe: A code-completion engine for Vim (github.com)</a></p><h4 id="1-Add-into-vimrc"><a href="#1-Add-into-vimrc" class="headerlink" title="1. Add into ~/.vimrc"></a>1. Add into ~/.vimrc</h4><pre><code>Plugin 'ycm-core/YouCompleteMe'</code></pre><h4 id="2-PluginInstall"><a href="#2-PluginInstall" class="headerlink" title="2. :PluginInstall"></a>2. :PluginInstall</h4><h4 id="3-Compile"><a href="#3-Compile" class="headerlink" title="3. Compile"></a>3. Compile</h4><pre><code>cd ~/.vim/bundle/YouCompleteMepython3 install.py --all</code></pre><h4 id="4-Add-into-end-of-vimrc"><a href="#4-Add-into-end-of-vimrc" class="headerlink" title="4. Add into end of ~/.vimrc"></a>4. Add into end of ~/.vimrc</h4><pre><code>let g:ycm_global_ycm_extra_conf='~/.ycm_extra_conf.py'</code></pre><h4 id="optional-Add-into-ycm-extra-conf-py"><a href="#optional-Add-into-ycm-extra-conf-py" class="headerlink" title="optional. Add into ~/.ycm_extra_conf.py"></a>optional. Add into ~/.ycm_extra_conf.py</h4><pre><code>'-isystem','/usr/local/include/opencv4',</code></pre><p><a href="https://github.com/preservim/nerdtree">preservim/nerdtree: A tree explorer plugin for vim. (github.com)</a></p><p><a href="https://github.com/Raimondi/delimitMate">Raimondi/delimitMate: Vim plugin, provides insert mode auto-completion for quotes, parens, brackets, etc. (github.com)</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux VIM Tips</title>
+      <link href="2021/01/04/linux/linux-vim-tips/"/>
+      <url>2021/01/04/linux/linux-vim-tips/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Online-Help"><a href="#Online-Help" class="headerlink" title="Online Help"></a>Online Help</h1><p>:help x -&gt; Normal mode command<br>:help v_u -&gt; Visual mode command<br>:help i_ -&gt; Insert mode command</p><h1 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h1><p>C-f -&gt; 向前翻页<br>C-b -&gt; 往回翻页<br>C-d -&gt; 向前翻半页<br>C-u -&gt; 往回翻半页<br>C-e -&gt; 向前翻一行<br>C-y -&gt; 往回翻一行</p><p>M -&gt; 光标跳到屏幕中间<br>L -&gt; 光标跳到屏幕底部<br>H -&gt; 光标跳到屏幕顶部</p><p>w -&gt; 光标往前跳一个单词<br>b -&gt; 光标往回跳一个单词<br>d -&gt; +d删一行，+w往前删一个单词, +b往回删一个单词<br>y -&gt; +y拷贝一行<br>p -&gt; 粘贴<br>u -&gt; 撤回修改<br>C-r -&gt; 重复撤回的修改</p><p>. -&gt; 重复上一次的命令<br>; -&gt; 重复正向查找或反向查找t/T/f/F<br>, -&gt; 反向t/T/f/F</p><p>:split -&gt; 上下分屏<br>:vsplit -&gt; 左右分屏<br>vi -p test1.cpp test2.cpp -&gt; 分标签页<br>:tabe test3.cpp -&gt; 打开第3个标签页<br>:tabn -&gt; 下一个标签页<br>:tabp -&gt; 上一个标签页<br>vi -o test1.cpp test2.cpp -&gt; 上下分屏<br>vi -O test1.cpp test2.cpp -&gt; 左右分屏<br>C-w -&gt; 加方向键或w在窗格间跳转</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ScrumMaster</title>
+      <link href="2021/01/04/projectmanagement/scrummaster/"/>
+      <url>2021/01/04/projectmanagement/scrummaster/</url>
+      
+        <content type="html"><![CDATA[<h4 id="活动的目标，自管理团队"><a href="#活动的目标，自管理团队" class="headerlink" title="活动的目标，自管理团队"></a><strong>活动的目标，自管理团队</strong></h4><h4 id="The-3-legs-of-empirical-process"><a href="#The-3-legs-of-empirical-process" class="headerlink" title="The 3 legs of empirical process"></a><strong>The 3 legs of empirical process</strong></h4><ul><li>Transparency -&gt; 透明</li><li>Inspection -&gt; 检测</li><li>Adaptation -&gt; 调整</li></ul><h4 id="Agile-Values"><a href="#Agile-Values" class="headerlink" title="Agile Values"></a><strong>Agile Values</strong></h4><ul><li>Individuals and interactions    OVER    processes and tools    -&gt; 个体和交互    高于    流程和工具</li><li>Working software    OVER    comprehensive documentation -&gt; 可工作的软件    高于    详尽的文档</li><li>Customer collaboration    OVER    contract nogotiation -&gt; 客户协作    高于    合同谈判</li><li>Responding to changes    OVER    following a plan -&gt; 相应变化    高于    遵守变化</li></ul><h4 id="3-Roles"><a href="#3-Roles" class="headerlink" title="3 Roles"></a><strong>3 Roles</strong></h4><ul><li>Development Team -&gt; 小团队，跨职能，5-9人；自管理；Full Time在一起</li><li>Product Owner -&gt; 要有财务权，唯一得到授权的人，ROI(Return of investment)投资回报率</li><li>ScrumMaster</li></ul><h4 id="3-Artifacts"><a href="#3-Artifacts" class="headerlink" title="3 Artifacts"></a><strong>3 Artifacts</strong></h4><ul><li>Product Backlog</li><li>Sprint Backlog</li><li>Increment</li></ul><h4 id="5-Events"><a href="#5-Events" class="headerlink" title="5 Events"></a><strong>5 Events</strong></h4><ul><li>Sprint -&gt; Duration: 1-4 weeks</li><li>Sprint Planning -&gt; 2h/week: What will be done, How will it be done</li><li>Daily Scrum -&gt; 15 min: Done yesterday, Will Done today, Blocking Issue</li><li>Sprint Review -&gt; 1h/week: all stakeholders and interested parties</li><li>Sprint Retrospective -&gt; 45 min/week: what start, what stop, what keep doing</li></ul><h4 id="5-Values"><a href="#5-Values" class="headerlink" title="5 Values"></a><strong>5 Values</strong></h4><ul><li>Courage</li><li>Openness</li><li>Focus</li><li>Commitment</li><li>Respect</li></ul><h4 id="注："><a href="#注：" class="headerlink" title="注："></a>注：</h4><ul><li>迭代成功率不能用来考核，应该看功能交付率</li><li>燃尽图，燃起图</li><li>Estimate is never accurate, we like Relative Estimation better</li><li>敏捷&lt;&gt;更快的交付，反而更多时间，人力，成本，敏捷更慢，更多回归测试，好处是在最短的时间交付最大价值，随时可以变</li><li>PO, SM都可以带多个团队，团队组员不能跨团队</li><li>领功能在迭代计划会议之后</li></ul><h4 id="Agile-Principles"><a href="#Agile-Principles" class="headerlink" title="Agile Principles"></a>Agile Principles</h4><ol><li>Our highest priority is to satisfy the customer through early and continuous deliver of valuable software.</li><li>Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.</li><li>Delivery working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.</li><li>Business people and developers must work together daily throughout the project.</li><li>Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.</li><li>The most efficient and effective method of converying information to and within a development team is face-to-face conversation.</li><li>Working software is the primary measure of progress.</li><li>Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.</li><li>Continuous attention to tecnical excellence and good design enhaces agility.</li><li>Simplicity - the art of maximizing the amout of work not done - is essential.</li><li>The best architectures, requirements, and designs emerge from self-organizing teams.</li><li>At regular intervals, the team reflects on how to become more effective, then tunes and adjusts it behavior accordingly.</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Project Management </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Project Management </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>机器学习实战</title>
+      <link href="2021/01/03/machine-learning/hands-on-ml/"/>
+      <url>2021/01/03/machine-learning/hands-on-ml/</url>
+      
+        <content type="html"><![CDATA[<h1 id="第一部分-机器学习的基础知识"><a href="#第一部分-机器学习的基础知识" class="headerlink" title="第一部分    机器学习的基础知识"></a>第一部分    机器学习的基础知识</h1><h2 id="第1章-机器学习概览"><a href="#第1章-机器学习概览" class="headerlink" title="第1章    机器学习概览"></a>第1章    机器学习概览</h2><h3 id="是否在人类监督下进行训练"><a href="#是否在人类监督下进行训练" class="headerlink" title="是否在人类监督下进行训练"></a>是否在人类监督下进行训练</h3><h4 id="1-有监督学习"><a href="#1-有监督学习" class="headerlink" title="1. 有监督学习"></a>1. 有监督学习</h4><ul><li>k-近邻算法</li><li>线性回归</li><li>逻辑回归</li><li>支持向量机（SVM）</li><li>决策树和随机森林</li><li>神经网络</li></ul><h4 id="2-无监督学习"><a href="#2-无监督学习" class="headerlink" title="2. 无监督学习"></a>2. 无监督学习</h4><ul><li>聚类算法<ul><li>k-均值算法</li><li>DBSCAN</li><li>分层聚类分析（HCA）</li></ul></li><li>异常检测和新颖性检测<ul><li>单类SVM</li><li>孤立森林</li></ul></li><li>可视化和降维<ul><li>主成分分析（PCA）</li><li>核主成分分析</li><li>局部线性嵌入（LLE）</li><li>t-分布随机近邻嵌入（t-SNE）</li></ul></li><li>关联规则学习<ul><li>Apriori</li><li>Eclat</li></ul></li></ul><h4 id="3-半监督学习"><a href="#3-半监督学习" class="headerlink" title="3. 半监督学习"></a>3. 半监督学习</h4><h4 id="4-强化学习"><a href="#4-强化学习" class="headerlink" title="4. 强化学习"></a>4. 强化学习</h4><h3 id="是否可以动态的进行增量学习"><a href="#是否可以动态的进行增量学习" class="headerlink" title="是否可以动态的进行增量学习"></a>是否可以动态的进行增量学习</h3><h4 id="1-批量学习"><a href="#1-批量学习" class="headerlink" title="1. 批量学习"></a>1. 批量学习</h4><h4 id="2-增量学习：在线学习，核外学习（离线）"><a href="#2-增量学习：在线学习，核外学习（离线）" class="headerlink" title="2. 增量学习：在线学习，核外学习（离线）"></a>2. 增量学习：在线学习，核外学习（离线）</h4><h3 id="是简单的将新数据点和已知的数据点进行匹配，还是对训练数据进行模式检测然后建立一个预测模型"><a href="#是简单的将新数据点和已知的数据点进行匹配，还是对训练数据进行模式检测然后建立一个预测模型" class="headerlink" title="是简单的将新数据点和已知的数据点进行匹配，还是对训练数据进行模式检测然后建立一个预测模型"></a>是简单的将新数据点和已知的数据点进行匹配，还是对训练数据进行模式检测然后建立一个预测模型</h3><h4 id="1-基于实例的学习"><a href="#1-基于实例的学习" class="headerlink" title="1. 基于实例的学习"></a>1. 基于实例的学习</h4><h4 id="2-基于模型的学习"><a href="#2-基于模型的学习" class="headerlink" title="2. 基于模型的学习"></a>2. 基于模型的学习</h4><h3 id="特征工程"><a href="#特征工程" class="headerlink" title="特征工程"></a>特征工程</h3><h4 id="1-特征选择"><a href="#1-特征选择" class="headerlink" title="1. 特征选择"></a>1. 特征选择</h4><h4 id="2-特征提取"><a href="#2-特征提取" class="headerlink" title="2. 特征提取"></a>2. 特征提取</h4><h4 id="3-创建新特征（收集新数据或通过特征组合）"><a href="#3-创建新特征（收集新数据或通过特征组合）" class="headerlink" title="3. 创建新特征（收集新数据或通过特征组合）"></a>3. 创建新特征（收集新数据或通过特征组合）</h4><h3 id="过拟合"><a href="#过拟合" class="headerlink" title="过拟合"></a>过拟合</h3><h4 id="1-简化模型"><a href="#1-简化模型" class="headerlink" title="1. 简化模型"></a>1. 简化模型</h4><h4 id="2-减少数据噪声"><a href="#2-减少数据噪声" class="headerlink" title="2. 减少数据噪声"></a>2. 减少数据噪声</h4><h4 id="3-收集更多数据"><a href="#3-收集更多数据" class="headerlink" title="3. 收集更多数据"></a>3. 收集更多数据</h4><h3 id="欠拟合"><a href="#欠拟合" class="headerlink" title="欠拟合"></a>欠拟合</h3><h4 id="1-选择带有更多参数、更强大的模型"><a href="#1-选择带有更多参数、更强大的模型" class="headerlink" title="1. 选择带有更多参数、更强大的模型"></a>1. 选择带有更多参数、更强大的模型</h4><h4 id="2-提供更好的特征集（特征工程）"><a href="#2-提供更好的特征集（特征工程）" class="headerlink" title="2. 提供更好的特征集（特征工程）"></a>2. 提供更好的特征集（特征工程）</h4><h4 id="3-减少模型中的约束（如：减少正则化超参数）"><a href="#3-减少模型中的约束（如：减少正则化超参数）" class="headerlink" title="3. 减少模型中的约束（如：减少正则化超参数）"></a>3. 减少模型中的约束（如：减少正则化超参数）</h4><h3 id="测试集与验证集"><a href="#测试集与验证集" class="headerlink" title="测试集与验证集"></a>测试集与验证集</h3><h2 id="第2章-端到端的机器学习项目"><a href="#第2章-端到端的机器学习项目" class="headerlink" title="第2章    端到端的机器学习项目"></a>第2章    端到端的机器学习项目</h2><h3 id="选择性能指标"><a href="#选择性能指标" class="headerlink" title="选择性能指标"></a>选择性能指标</h3><h4 id="均方根误差-RMSE"><a href="#均方根误差-RMSE" class="headerlink" title="均方根误差 RMSE"></a>均方根误差 RMSE</h4><p>$$RMSE(X, h) = \sqrt{\sum_{i=1}^m(h(x^{(i)})-y^{(i)})^2}$$</p><h4 id="平方绝对误差-MAE"><a href="#平方绝对误差-MAE" class="headerlink" title="平方绝对误差 MAE"></a>平方绝对误差 MAE</h4><p>$$MAE(X, h) = \sqrt{\sum_{i=1}^m|h(x^{(i)})-y^{(i)}|}$$</p><h3 id="微调模型"><a href="#微调模型" class="headerlink" title="微调模型"></a>微调模型</h3><h4 id="网格搜索-GridSearchCV"><a href="#网格搜索-GridSearchCV" class="headerlink" title="网格搜索 GridSearchCV"></a>网格搜索 GridSearchCV</h4><h4 id="随机搜索-RandomizedSearchCV"><a href="#随机搜索-RandomizedSearchCV" class="headerlink" title="随机搜索 RandomizedSearchCV"></a>随机搜索 RandomizedSearchCV</h4><h2 id="第3章-分类"><a href="#第3章-分类" class="headerlink" title="第3章    分类"></a>第3章    分类</h2><h3 id="二元分类器-SGDClassifier"><a href="#二元分类器-SGDClassifier" class="headerlink" title="二元分类器 SGDClassifier"></a>二元分类器 SGDClassifier</h3><h3 id="交叉验证-cross-val-score"><a href="#交叉验证-cross-val-score" class="headerlink" title="交叉验证 cross_val_score()"></a>交叉验证 cross_val_score()</h3><h3 id="混淆矩阵-confusion-matrix"><a href="#混淆矩阵-confusion-matrix" class="headerlink" title="混淆矩阵 confusion_matrix()"></a>混淆矩阵 confusion_matrix()</h3><h3 id="精度-frac-TP-TP-FP"><a href="#精度-frac-TP-TP-FP" class="headerlink" title="精度 = $\frac{TP}{TP+FP}$"></a>精度 = $\frac{TP}{TP+FP}$</h3><h3 id="召回率-frac-TP-TP-FN"><a href="#召回率-frac-TP-TP-FN" class="headerlink" title="召回率 = $\frac{TP}{TP+FN}$"></a>召回率 = $\frac{TP}{TP+FN}$</h3><h3 id="F1-frac-2-frac-1-精度-frac-1-召回率-2-frac-精度召回率-精度-召回率-frac-TP-TP-frac-FN-FP-2"><a href="#F1-frac-2-frac-1-精度-frac-1-召回率-2-frac-精度召回率-精度-召回率-frac-TP-TP-frac-FN-FP-2" class="headerlink" title="F1 = $\frac{2}{\frac{1}{精度}+\frac{1}{召回率}}=2\frac{精度召回率}{精度+召回率}=\frac{TP}{TP+\frac{FN+FP}{2}}$"></a>F1 = $\frac{2}{\frac{1}{精度}+\frac{1}{召回率}}=2<em>\frac{精度</em>召回率}{精度+召回率}=\frac{TP}{TP+\frac{FN+FP}{2}}$</h3><h3 id="精度-召回率权衡"><a href="#精度-召回率权衡" class="headerlink" title="精度/召回率权衡"></a>精度/召回率权衡</h3><h3 id="ROC曲线，AUC为曲线下的面积"><a href="#ROC曲线，AUC为曲线下的面积" class="headerlink" title="ROC曲线，AUC为曲线下的面积"></a>ROC曲线，AUC为曲线下的面积</h3><p>当正类非常少见或者你更关注假正类而不是假负类时，应该选择召回率（PR）曲线，反之则是ROC曲线。</p><h3 id="多类分类器"><a href="#多类分类器" class="headerlink" title="多类分类器"></a>多类分类器</h3><h4 id="算法：随机森林，朴素贝叶斯"><a href="#算法：随机森林，朴素贝叶斯" class="headerlink" title="算法：随机森林，朴素贝叶斯"></a>算法：随机森林，朴素贝叶斯</h4><h4 id="有多种策略可以使用几个二元分类器（如支持向量机分类器或线性分类器）实现多类分类"><a href="#有多种策略可以使用几个二元分类器（如支持向量机分类器或线性分类器）实现多类分类" class="headerlink" title="有多种策略可以使用几个二元分类器（如支持向量机分类器或线性分类器）实现多类分类"></a>有多种策略可以使用几个二元分类器（如支持向量机分类器或线性分类器）实现多类分类</h4><h4 id="多标签分类（KNeighbersClassifier支持多标签分类）"><a href="#多标签分类（KNeighbersClassifier支持多标签分类）" class="headerlink" title="多标签分类（KNeighbersClassifier支持多标签分类）"></a>多标签分类（KNeighbersClassifier支持多标签分类）</h4><h4 id="多输出分类"><a href="#多输出分类" class="headerlink" title="多输出分类"></a>多输出分类</h4><p>分类和回归之间的界限有时很模糊，多输出系统也不仅仅限于分类任务，可以让一个系统给每个实例输出多个标签，同时包括类标签和值标签。</p><h2 id="第4章-训练模型"><a href="#第4章-训练模型" class="headerlink" title="第4章    训练模型"></a>第4章    训练模型</h2><h2 id="第5章-支持向量机"><a href="#第5章-支持向量机" class="headerlink" title="第5章    支持向量机"></a>第5章    支持向量机</h2><h2 id="第6章-决策树"><a href="#第6章-决策树" class="headerlink" title="第6章    决策树"></a>第6章    决策树</h2><h2 id="第7章-集成学习和随机森林"><a href="#第7章-集成学习和随机森林" class="headerlink" title="第7章    集成学习和随机森林"></a>第7章    集成学习和随机森林</h2><h2 id="第8章-降维"><a href="#第8章-降维" class="headerlink" title="第8章    降维"></a>第8章    降维</h2><h2 id="第9章-无监督学习技术"><a href="#第9章-无监督学习技术" class="headerlink" title="第9章    无监督学习技术"></a>第9章    无监督学习技术</h2><h1 id="第二部分-神经网络与深度学习"><a href="#第二部分-神经网络与深度学习" class="headerlink" title="第二部分    神经网络与深度学习"></a>第二部分    神经网络与深度学习</h1><h2 id="第10章-Keras人工神经网络简介"><a href="#第10章-Keras人工神经网络简介" class="headerlink" title="第10章    Keras人工神经网络简介"></a>第10章    Keras人工神经网络简介</h2><h2 id="第11章-训练深度神经网络"><a href="#第11章-训练深度神经网络" class="headerlink" title="第11章    训练深度神经网络"></a>第11章    训练深度神经网络</h2><h2 id="第12章-使用TensorFlow自定义模型和训练"><a href="#第12章-使用TensorFlow自定义模型和训练" class="headerlink" title="第12章    使用TensorFlow自定义模型和训练"></a>第12章    使用TensorFlow自定义模型和训练</h2><h2 id="第13章-使用TensorFlow加载和预处理数据"><a href="#第13章-使用TensorFlow加载和预处理数据" class="headerlink" title="第13章    使用TensorFlow加载和预处理数据"></a>第13章    使用TensorFlow加载和预处理数据</h2><h2 id="第14章-使用卷积神经网络的深度计算机视觉"><a href="#第14章-使用卷积神经网络的深度计算机视觉" class="headerlink" title="第14章    使用卷积神经网络的深度计算机视觉"></a>第14章    使用卷积神经网络的深度计算机视觉</h2><h2 id="第15章-使用RNN和CNN处理序列"><a href="#第15章-使用RNN和CNN处理序列" class="headerlink" title="第15章    使用RNN和CNN处理序列"></a>第15章    使用RNN和CNN处理序列</h2><h2 id="第16章-使用RNN和注意力机制进行自然语言处理"><a href="#第16章-使用RNN和注意力机制进行自然语言处理" class="headerlink" title="第16章    使用RNN和注意力机制进行自然语言处理"></a>第16章    使用RNN和注意力机制进行自然语言处理</h2><h2 id="第17章-使用自动编码器和GAN的表征学习和生成学习"><a href="#第17章-使用自动编码器和GAN的表征学习和生成学习" class="headerlink" title="第17章    使用自动编码器和GAN的表征学习和生成学习"></a>第17章    使用自动编码器和GAN的表征学习和生成学习</h2><h2 id="第18章-强化学习"><a href="#第18章-强化学习" class="headerlink" title="第18章    强化学习"></a>第18章    强化学习</h2><h2 id="第19章-大规模训练和部署TensorFlow模型"><a href="#第19章-大规模训练和部署TensorFlow模型" class="headerlink" title="第19章    大规模训练和部署TensorFlow模型"></a>第19章    大规模训练和部署TensorFlow模型</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Machine Learning </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Scikit-Learn Keras TensorFlow </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>colab clone github至google drive</title>
+      <link href="2020/11/19/machine-learning/colab-clone-github/"/>
+      <url>2020/11/19/machine-learning/colab-clone-github/</url>
+      
+        <content type="html"><![CDATA[<pre class=" language-python"><code class="language-python"><span class="token keyword">from</span> google<span class="token punctuation">.</span>colab <span class="token keyword">import</span> drivedrive<span class="token punctuation">.</span>mount<span class="token punctuation">(</span><span class="token string">'/content/drive'</span><span class="token punctuation">)</span><span class="token operator">%</span>cd <span class="token string">'/content/drive/MyDrive'</span><span class="token keyword">import</span> os!mkdir researchHubos<span class="token punctuation">.</span>chdir<span class="token punctuation">(</span><span class="token string">'./researchHub/'</span><span class="token punctuation">)</span>!git clone <span class="token operator">-</span><span class="token operator">-</span>depth<span class="token operator">=</span><span class="token number">1</span> https<span class="token punctuation">:</span><span class="token operator">//</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>ageron<span class="token operator">/</span>handson<span class="token operator">-</span>ml2os<span class="token punctuation">.</span>chdir<span class="token punctuation">(</span><span class="token string">'./handson-ml2'</span><span class="token punctuation">)</span>!pwd</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> Machine Learninig </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> colab </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>张量、矩阵和向量区别</title>
+      <link href="2020/11/09/machine-learning/tensor-matrix-vector/"/>
+      <url>2020/11/09/machine-learning/tensor-matrix-vector/</url>
+      
+        <content type="html"><![CDATA[<p>深度学习中会经常涉及到张量的维数、向量的维数的概念，我发现自己一直把它们给混淆了，原因是被一些约定俗成的叫法扰乱了，下面来介绍一下它们的区别。</p><p>首先，张量的维数等价于张量的阶数。<br>0维的张量就是标量，1维的张量就是向量，2维的张量就是矩阵，大于等于3维的张量没有名称，统一叫做张量。下面举例：<br>标量：很简单，就是一个数，1，2，5，108等等<br>向量：[1,2]，[1,2,3]，[1,2,3,4]，[3,5,67,·······,n]都是向量<br>矩阵：[[1,3],[3,5]]，[[1,2,3],[2,3,4],[3,4,5]]，[[4,5,6,7,8],[3,4,7,8,9],[2,11,34,56,18]]是矩阵<br>3维张量：[[[1,2],[3,4]],[[1,2],[3,4]]]</p><p>但是混淆的地方来了，就是数学里面会使用3维向量，n维向量的说法，这其实指的是1维张量（即向量）的形状，即它所含分量的个数，比如[1,3]这个向量的维数为2，它有1和3这两个分量；[1,2,3,······，4096]这个向量的维数为4096，它有1、2······4096这4096个分量，都是说的向量的形状。你不能说[1,3]这个“张量”的维数是2，只能说[1,3]这个“1维张量”的维数是2。<br>矩阵也是类似，常常说的n×m阶矩阵，这里的阶也是指的矩阵的形状。<br>那么，张量的维数和张量的形状怎么看呢？</p><p><strong>维度要看张量的最左边有多少个左中括号，有n个，则这个张量就是n维张量</strong><br>[[1,3],[3,5]]最左边有两个左中括号，它就2维张量；[[[1,2],[3,4]],[[1,2],[3,4]]]最左边有三个左中括号，它就3维张量</p><p><strong>形状的第一个元素要看张量最左边的中括号中有几个元素，形状的第二个元素要看张量中最左边的第二个中括号中有几个被逗号隔开的元素，形状的第3,4…n个元素以此类推</strong><br>[[1,3],[3,5]]的最左边中括号有[1,3]和[3,5]这两个元素，最左边的第二个中括号里有1和3这两个元素，所以形状为[2,2]；[[[1,2],[3,4]],[[1,2],[3,4]]]的最左边中括号有[[1,2],[3,4]]和[[1,2],[3,4]]这两个元素，最左边的第二个中括号里有[1,2]和[3,4]这两个元素，最左边的第三个中括号里有1和2这两个元素，所以形状为[2,2,2]</p><p><strong>在形状的中括号中有多少个数字，就代表这个张量是多少维的张量。</strong></p><p><strong>转自：</strong> <a href="https://blog.csdn.net/shenggedeqiang/article/details/84856051">https://blog.csdn.net/shenggedeqiang/article/details/84856051</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Math </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【大聪】《信条》两万字深度解析！</title>
+      <link href="2020/11/08/movie/tenet/"/>
+      <url>2020/11/08/movie/tenet/</url>
+      
+        <content type="html"><![CDATA[<h4 id="【大聪】《信条》第1阶观影指南，挑战你的脑回路极限（无剧透）"><a href="#【大聪】《信条》第1阶观影指南，挑战你的脑回路极限（无剧透）" class="headerlink" title="【大聪】《信条》第1阶观影指南，挑战你的脑回路极限（无剧透）"></a>【大聪】《信条》第1阶观影指南，挑战你的脑回路极限（无剧透）</h4><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=201916029&amp;bvid=BV1Sh41197SK&amp;cid=230270801&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div><h4 id="【大聪】《信条》两万字深度解析！看懂每一处细节！（第二阶）"><a href="#【大聪】《信条》两万字深度解析！看懂每一处细节！（第二阶）" class="headerlink" title="【大聪】《信条》两万字深度解析！看懂每一处细节！（第二阶）"></a>【大聪】《信条》两万字深度解析！看懂每一处细节！（第二阶）</h4><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=584425123&amp;bvid=BV1Dz4y1f7vZ&amp;cid=232462385&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div><h4 id="【大聪】《信条》第三阶热门问题解答，解密假画卖家身份，深层意义解析诺兰“现身说法”"><a href="#【大聪】《信条》第三阶热门问题解答，解密假画卖家身份，深层意义解析诺兰“现身说法”" class="headerlink" title="【大聪】《信条》第三阶热门问题解答，解密假画卖家身份，深层意义解析诺兰“现身说法”"></a>【大聪】《信条》第三阶热门问题解答，解密假画卖家身份，深层意义解析诺兰“现身说法”</h4><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=712065642&amp;bvid=BV1ND4y1o7SH&amp;cid=233770474&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Movie </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Movie </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Linux Tips</title>
+      <link href="2020/11/07/linux/linux-tips/"/>
+      <url>2020/11/07/linux/linux-tips/</url>
+      
+        <content type="html"><![CDATA[<p><img src="20-linux-cmd.png"></p><h4 id="1-查看目录以及权限"><a href="#1-查看目录以及权限" class="headerlink" title="1 查看目录以及权限"></a>1 查看目录以及权限</h4><blockquote><p>在windows中，使用dir查看当前目录中文件。在Linux中使用ls(list)查看当前目录文件。</p></blockquote><p>windows中的dir，如下图所示<br><img src="windows-dir.png"></p><blockquote><p>在Linux中，通常使用ls -l列出，其中可以查看文件属性，所属用户组等较为详细的信息。下面详细解释从左到右每一列是什么意思<br><img src="linux-ls.jpg"></p></blockquote><p>第一列第一个字段：文件类型，后面9个字符是模式，其中分为三组，每一组三个字段。第一组为所属用户权限。第二组为所属组的权限。第三组为其他用户所属权限。其中r(read)代表可读，w(write)代表可写，e(execute)代表可执行。在后面的9个字符中，如果是字母说明有相应的权限，如果为”-“代表没有权限。举一个例子<br>-rw-r-r–:此为普通文件，对于所属用户为可读可写不能执行，对于所属组仅仅可读，对于其他用户仅为读。</p><p>第二列 硬链接数目</p><blockquote><p>硬链接允许作用之一是允许一个文件拥有多个有效路径名，从而防止误删。但是只能在同一文件系统中的文件之间进行连接，不能对目录进行创建。</p></blockquote><p>第三列是所属用户，第四列为所属组，第五列为文件大小，第六列为文件被修改的时间，最后为文件名。其中使用chown改变所属用户，chgrp改变所属组。</p><h4 id="2-nohup-no-hang-up不要挂起的意思"><a href="#2-nohup-no-hang-up不要挂起的意思" class="headerlink" title="2 nohup (no hang up不要挂起的意思)"></a>2 nohup (no hang up不要挂起的意思)</h4><blockquote><p>这也是常用后台启动程序的常用方法，如果在交互命令行中运行程序，我们很容易就终止它。在交互环境下，我们的输出一般都会直接输出到当前界面，在后台启动的时候通常会定向到文件，那通常情况是下面这个命令。</p></blockquote><p>nohup command &gt;X.file 2 &gt;&amp;1 &amp;</p><blockquote><p>其中1表示标准输出。2表示文件标准错误输出。2&gt;1&amp;即将两者合并，但是合并到哪里，就是X.file.</p></blockquote><h4 id="3-查看进程"><a href="#3-查看进程" class="headerlink" title="3 查看进程"></a>3 查看进程</h4><blockquote><p>有的时候我们需要查看进程是否已经启动或者尝试终止进程。经常使用的命令为ps -ef—列出当前正在运行的程序，那如何定位我们想要查看的进程A，这个时候使用grep，即ps -ef| grep A.</p></blockquote><h4 id="4-awk"><a href="#4-awk" class="headerlink" title="4 awk"></a>4 awk</h4><blockquote><p>如果文件是csv(a.csv)，按照”,”分割，需求为打印第一列和第二列</p></blockquote><p>awk -F “,” ‘{print 2}’ a.csv</p><blockquote><p>获取第三列最大值</p></blockquote><p>awk ‘BEGIN{max=0}{if(3}END{print max}’</p><h4 id="5-tar解压缩"><a href="#5-tar解压缩" class="headerlink" title="5 tar解压缩"></a>5 tar解压缩</h4><blockquote><p>解压缩命令</p></blockquote><p>常用参数</p><blockquote><p>-c:创建的tar文件<br>-x:解开tar文件<br>-t:列出tar文件中包含的文件信息<br>-r：附加新的文件到tar文件中</p></blockquote><p>常用命令组合</p><p>tar -xvf /home/a.tar  //打开tar打包文件<br>tar -zxvf /home/a.tar.gz //解压以gzip压缩的文件<br>tar -jxvf /home/a.tar.bz2 //解压以bzip压缩的文件<br>tar -cvf /home/a.tar /home 打包/home下所有文件</p><h4 id="6-scp"><a href="#6-scp" class="headerlink" title="6 scp"></a>6 scp</h4><blockquote><p>通过scp命令在多台服务器中的相互复制 传输文件。为了省下输入密码，可以设置免密登录。</p></blockquote><p>常用组合：</p><p>例子1：将A服务器中/home/a.txt 复制到B服务器的/home中<br>scp -r /home/a.txt root@B_ip:/home</p><h4 id="7-林哥的死亡命令-rm-rf"><a href="#7-林哥的死亡命令-rm-rf" class="headerlink" title="7 林哥的死亡命令 rm -rf"></a>7 林哥的死亡命令 rm -rf</h4><blockquote><p>翻车现场请看次条。</p></blockquote><h4 id="8-watch"><a href="#8-watch" class="headerlink" title="8 watch"></a>8 watch</h4><blockquote><p>这个命令是动态查看命令执行的结果。比如如果需要每隔一秒高亮显示网络连接数的变化情况。则 watch -n 1 -d netstat -ant</p></blockquote><p>例子：每隔一秒高亮显示http连接数的变化情况</p><p>watch -n 1 -d ‘pstree | grep http’</p><p>例子:十秒一次输出系统的平均负载</p><p>watch -n 10 ‘cat /proc/loadavg’</p><h4 id="9-df"><a href="#9-df" class="headerlink" title="9 df"></a>9 df</h4><blockquote><p>查看磁盘大小</p></blockquote><p>df -h</p><p><img src="linux-df.png"></p><h4 id="10-tcpdump"><a href="#10-tcpdump" class="headerlink" title="10 tcpdump"></a>10 tcpdump</h4><blockquote><p>和它类似的工具在windows中是wireshark，其采用底层库winpcap/libpcap实现。采用了bpf过滤机制。下面我们看看提供的不同参数的含义。</p></blockquote><table><thead><tr><th align="center">参数名</th><th align="left">含义</th></tr></thead><tbody><tr><td align="center">-n</td><td align="left">使用IP地址表示主机。使用数字表示端口</td></tr><tr><td align="center">-i</td><td align="left">指定要监听的端口。如果为”-i any”表示住区所有网卡数据包</td></tr><tr><td align="center">-v</td><td align="left">输出诸如ip数据包中的TTL更加详细的信息</td></tr><tr><td align="center">-t</td><td align="left">不打印时间戳</td></tr><tr><td align="center">-e</td><td align="left">显示以太网帧头部信息</td></tr><tr><td align="center">-c</td><td align="left">仅仅抓取指定数量的数据包</td></tr><tr><td align="center">-x</td><td align="left">按照十六进制显示数据包内容</td></tr><tr><td align="center">-X</td><td align="left">不仅仅输出-x结果还输出十六进制对应的ASCII字符</td></tr><tr><td align="center">-s</td><td align="left">设置抓包时的抓包长度</td></tr><tr><td align="center">-w</td><td align="left">将输出结果定向到某个文件，一般为pcap后缀</td></tr><tr><td align="center">-r</td><td align="left">从文件读取数据包并显示数字表示端口</td></tr><tr><td align="center">-i</td><td align="left">指定要监听的端口。如果为”-i any”表示住区所有网卡数据包</td></tr><tr><td align="center">-v</td><td align="left">输出诸如ip数据包中的TTL更加详细的信息</td></tr><tr><td align="center">-t</td><td align="left">不打印时间戳</td></tr><tr><td align="center">-e</td><td align="left">显示以太网帧头部信息</td></tr><tr><td align="center">-c</td><td align="left">仅仅抓取指定数量的数据包</td></tr><tr><td align="center">-x</td><td align="left">按照十六进制显示数据包内容</td></tr><tr><td align="center">-X</td><td align="left">不仅仅输出-x结果还输出十六进制对应的ASCII字符</td></tr><tr><td align="center">-s</td><td align="left">设置抓包时的抓包长度</td></tr><tr><td align="center">-w</td><td align="left">将输出结果定向到某个文件，一般为pcap后缀</td></tr><tr><td align="center">-r</td><td align="left">从文件读取数据包并显示</td></tr></tbody></table><p>知道了相关参数，下面看几个案例</p><table><thead><tr><th>执行任务</th><th>执行命令</th></tr></thead><tbody><tr><td>捕获特定网口数据包</td><td>tcpdump -i eth0</td></tr><tr><td>捕获特定个数(1000)的包</td><td>tcpdump -c 1000 -i eth0</td></tr><tr><td>将捕获的包保存到文件</td><td>tcpdump -w a.pcap -i eth0</td></tr><tr><td>读取pcap格式的包</td><td>tcpdump -r a.pcap</td></tr><tr><td>增加捕获包的时间戳</td><td>tcpdump -n -ttt -i eth0</td></tr><tr><td>指定捕获包的协议类型</td><td>tcpdump -i eth0 arp</td></tr><tr><td>捕获指定端口</td><td>tcpdump -i eth0 post 22</td></tr><tr><td>捕获特定目标ip+port的包</td><td>tcpdump -i eth0 dst address and port 22</td></tr><tr><td>捕获DNS请求和响应</td><td>tcpdump -i eth0 -s0 port 53</td></tr><tr><td>匹配Http请求头</td><td>tcpdump -s 0 -v -n -l</td></tr><tr><td>将捕获的包保存到文件</td><td>tcpdump -w a.pcap -i eth0</td></tr><tr><td>读取pcap格式的包</td><td>tcpdump -r a.pcap</td></tr><tr><td>增加捕获包的时间戳</td><td>tcpdump -n -ttt -i eth0</td></tr><tr><td>指定捕获包的协议类型</td><td>tcpdump -i eth0 arp</td></tr><tr><td>捕获指定端口</td><td>tcpdump -i eth0 post 22</td></tr><tr><td>捕获DNS请求和响应</td><td>tcpdump -i eth0 -s0 port 53</td></tr><tr><td>捕获特定目标ip+port的包</td><td>tcpdump -i eth0 dst address and port 22</td></tr><tr><td>匹配Http请求头</td><td>tcpdump -s 0 -v -n -l</td></tr></tbody></table><h4 id="11-lsof"><a href="#11-lsof" class="headerlink" title="11 lsof"></a>11 lsof</h4><blockquote><p>列出当前系统打开的文件描述符工具。可以得知感兴趣的描述符是被哪些进程使用<br>同样，我们看看相关参数</p></blockquote><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td>-i</td><td>显示sokcet文件描述符</td></tr><tr><td>-c</td><td>显示指定的命令打开的所有文件描述符</td></tr><tr><td>-t</td><td>仅显示打开了目标文件描述符的进程pid</td></tr></tbody></table><p>老规矩，上几个例子</p><table><thead><tr><th>执行任务</th><th>命令</th></tr></thead><tbody><tr><td>列出所有的网络链接</td><td>lsof -i</td></tr><tr><td>列出所有udp的网络链接</td><td>lsof -i udp</td></tr><tr><td>列出谁在使用某个端口</td><td>lsof -i :3306</td></tr><tr><td>列出谁在使用特定的tcp端口</td><td>lsof -i tcp:80</td></tr><tr><td>根据文件描述范围列出文件信息</td><td>lsof -d 2-3</td></tr></tbody></table><h4 id="12-nc"><a href="#12-nc" class="headerlink" title="12 nc"></a>12 nc</h4><blockquote><p>nc–&gt;“瑞士军刀”。不知大家在渗透过程中，拿了shell有没有使用nc搞点事儿。它用来快速构建网络链接。常用来调试客户端程序。</p></blockquote><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td>-i</td><td>设置数据包传送的时间间隔</td></tr><tr><td>-l</td><td>以服务器方式运行。默认为客户端运行</td></tr><tr><td>-k</td><td>重复接受并处理某个端口上的所有链接</td></tr><tr><td>-p</td><td>以客户端运行时强制其使用指定端口</td></tr><tr><td>-C</td><td>将CR和LF两个字符作为结束符</td></tr><tr><td>-u</td><td>使用udp协议。默认tcp协议</td></tr><tr><td>-X</td><td>nc客户端余代理服务器通信时默认为socks5协议。</td></tr><tr><td>-z</td><td>扫描目标机器某个范围服务是否开启</td></tr></tbody></table><p>小贱上案例</p><table><thead><tr><th>执行任务</th><th>执行命令</th></tr></thead><tbody><tr><td>扫描机器A端口号在30-40的服务</td><td>nc -z A 30-40</td></tr><tr><td>连接服务器A 端口号为5000</td><td>nc -C A 5000</td></tr><tr><td>传送文件</td><td>MachineA:nc -v -n ip portE:\a.exe</td></tr></tbody></table><h4 id="13-netstat"><a href="#13-netstat" class="headerlink" title="13 netstat"></a>13 netstat</h4><blockquote><p>netstat是一个网络信息统计工具。它可以得到网卡接口上全部了解，路由表信息，网卡接口信息等。通常在网络编程中我们用它来显示TCP连接以及状态信息。</p></blockquote><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td>-n</td><td>使用IP地址表示主机</td></tr><tr><td>-a</td><td>显示结果中包含监听的socket</td></tr><tr><td>-t</td><td>仅显示TCP连接</td></tr><tr><td>-r</td><td>显示路由信息</td></tr><tr><td>-i</td><td>显示网卡接口数据流量</td></tr><tr><td>-c</td><td>每隔1s输出一次</td></tr><tr><td>-o</td><td>显示socket定时器的信息</td></tr><tr><td>-p</td><td>显示socket所属的进程的PID和名字</td></tr></tbody></table><p>下面列举几个常用例子</p><table><thead><tr><th>执行任务</th><th>执行命令</th></tr></thead><tbody><tr><td>列出所有连接</td><td>netstat -a</td></tr><tr><td>只列出TCP或者UDP</td><td>netstat -at/netstat -au</td></tr><tr><td>列出监听中的连接</td><td>netstat -tnl</td></tr><tr><td>获取进程名、进程号以及用户 ID</td><td>nestat  -nlpt</td></tr><tr><td>打印统计信息</td><td>netstat -s</td></tr><tr><td>netstat持续输出</td><td>netstat -ct</td></tr><tr><td>打印active状态的连接</td><td>netstat -atnp | grep ESTA</td></tr><tr><td>查看服务是否运行(npt)</td><td>netstat -aple | grep ntp</td></tr></tbody></table><h4 id="14-vmstat"><a href="#14-vmstat" class="headerlink" title="14 vmstat"></a>14 vmstat</h4><blockquote><p>vmstat能够实时输出系统的进程信息，内存使用，cpu使用等资源的使用情况</p></blockquote><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td>-f</td><td>显示系统自启动以来执行的fork次数</td></tr><tr><td>-s</td><td>显示内存相关统计信息</td></tr><tr><td>-d</td><td>显示磁盘相关统计信息</td></tr><tr><td>-p</td><td>显示指定磁盘分区统计信息</td></tr><tr><td>count</td><td>采样次数。</td></tr></tbody></table><p>看一下vmstat都有哪些输出字段。<br><img src="linux-vmstat.png"></p><table><thead><tr><th>字段名</th><th>描述</th></tr></thead><tbody><tr><td>procs</td><td>r表示等待运行的而进程数目。b表示处于不可中断睡眠状态的进程数目</td></tr><tr><td>memory</td><td>swpd：使用的虚拟内存量。free：空闲内存量。buff：用作缓冲区的内存量。cache：用作缓存的内存量。</td></tr><tr><td>swap</td><td>si：从磁盘换入的内存量（/s）。so：交换到磁盘的内存量（/s）。</td></tr><tr><td>io</td><td>bi：从块设备接收的块（blocks/s）。bo：发送到块设备的块（blocks/s）。</td></tr><tr><td>system</td><td>in：每秒中断的次数，包括时钟。cs：每秒上下文切换的次数。</td></tr><tr><td>这里注意哈，如果查看磁盘的更加详细信息，有另外iostat所得到的信心就更加详细哟</td><td></td></tr></tbody></table><h4 id="15-mpstat"><a href="#15-mpstat" class="headerlink" title="15 mpstat"></a>15 mpstat</h4><blockquote><p>能够实时监测多处理器系统中各个cpu的使用情况。这个命令的执行需要安装sysstat，在centos中执行yum install systat就好了。<br><img src=""></p></blockquote><p>然后我们看看各个字段什么意思。</p><table><thead><tr><th>字段</th><th>描述</th></tr></thead><tbody><tr><td>cpu</td><td>表示当前条信息属于哪个cpu的数据</td></tr><tr><td>%usr</td><td>进程运行在用户空间所占cpu运行时间的比例</td></tr><tr><td>%nice</td><td>nice值为负的进程运行在用户空间的时间占cpu总运行时间的比例</td></tr><tr><td>%iowait</td><td>cpu等待磁盘操作的时间占cpu总运行时间的比例</td></tr><tr><td>%irq</td><td>cpu用于处理硬件中断时间占cpu总运行时间的比例</td></tr><tr><td>%soft</td><td>cpu用于处理软件中断的时间占cpu用运行时间的比例</td></tr><tr><td>%steal</td><td>一对虚拟cpu。当超级管理员在处理某个虚拟cpu时，另一个等待它处理完才能运行。这段等待时间表示为steal时间占总运行时间的比例</td></tr><tr><td>%guest</td><td>运行虚拟cpu时间占cpu总运行时间的比例</td></tr><tr><td>%idle</td><td>系统空闲时间占cpu总运行时间的比例</td></tr></tbody></table><h4 id="16-split"><a href="#16-split" class="headerlink" title="16 split"></a>16 split</h4><blockquote><p>将文件分割为数个。</p></blockquote><p>split -5 a.txt//将a.txt每5行分割为一个文件</p><h4 id="17-wc-c-filename"><a href="#17-wc-c-filename" class="headerlink" title="17 wc -c +filename"></a>17 wc -c +filename</h4><blockquote><p>统计文件中单词的个数。</p></blockquote><h4 id="18-more-less"><a href="#18-more-less" class="headerlink" title="18 more/less"></a>18 more/less</h4><blockquote><p>一页一页显示，通过空白键显示下一页/上一页</p></blockquote><h4 id="19-head-tail"><a href="#19-head-tail" class="headerlink" title="19 head/tail"></a>19 head/tail</h4><blockquote><p>查看某文件前几行或者后几行</p></blockquote><h4 id="20-diff"><a href="#20-diff" class="headerlink" title="20 diff"></a>20 diff</h4><blockquote><p>diff -c file1 file2 //显示两个文件的差异</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3个神奇的数学公式</title>
+      <link href="2020/11/07/math/3-formula/"/>
+      <url>2020/11/07/math/3-formula/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一：拉马努金恒等式"><a href="#一：拉马努金恒等式" class="headerlink" title="一：拉马努金恒等式"></a>一：拉马努金恒等式</h3><p><font size="5"></font></p><center><font size="5">$3=\sqrt{1+2\sqrt{1+3\sqrt{1+4}\sqrt{…}}}$</font></center><p></p><p>更一般的形式为：</p><p><font size="4"></font></p><center><font size="4">$n=\sqrt{1+(n-1)\sqrt{1+n\sqrt{1+(n+1)\sqrt{1+(n+2)\sqrt{\cdots}}}}}$</font></center><p></p><p>当n等于3的时候，这个式子具有上图最为优美的形式，中国道家学派说：一生二，二生三，三生万物。总感觉和这个式子似乎有什么关联。</p><p>曾经有人问拉马努金这些公式都是怎么来的，他回答说：是上帝告诉我的。</p><p>数学，也太奇妙了吧。</p><p>另附证明过程：</p><p><left>    $3=\sqrt{1+2*4}$</left></p><p><left>     $=\sqrt{1+2\sqrt{1+3*5}}$</left></p><p><left>     $=\sqrt{1+2\sqrt{1+3\sqrt{1+4*6}}}$</left></p><p><left>     $=\sqrt{1+2\sqrt{1+3\sqrt{1+4\sqrt{1+5*7}}}}$</left></p><p><left>     $=\sqrt{1+2\sqrt{1+3\sqrt{1+4\sqrt{1+5\sqrt{1+6*8}}}}}$</left></p><p><left>     $=\cdots$</left></p><p><left>     $=拉马努金恒等式$</left></p><h3 id="二：BBP公式"><a href="#二：BBP公式" class="headerlink" title="二：BBP公式"></a>二：BBP公式</h3><p><font size="5"></font></p><center><font size="5">$\scr{Bailey-Borwein-Plouffe公式}$</font></center><br><font size="5"><center>$\pi=\sum_{i=0}^\infty[\frac{1}{16^k}(\frac{4}{8k+1}-\frac{2}{8k+4}-\frac{1}{8k+5}-\frac{1}{8k+6})]$</center></font>  <p></p><p>对于圆周率π，大家应该都不陌生。圆周率的计算可以追溯到千年之前，更加精确地计算圆周率在古代一直就是数学界的重要任务。我国1500多年前一位伟大的数学家祖冲之利用割圆术将圆周率确定至小数点后的第七位。</p><p>到了如今，有了微积分之后，计算圆周率就要简单方便多了，利用计算机人们甚至能计算到小数点后成千上万位。</p><p>不过这些所有的计算公式都有一个共同点，不管它能计算到多少位数，都必须从第一位开始一个一个计算。数学家在很长一段时间都认为，单独计算某一位而不用计算前面的是多少是不可能的。</p><p>一直到1995年，三位美国数学家共同发现了这个震惊数学界的公式，即BBP公式。在16进制下，它竟然能够计算小数点后面任意一个位数，并不需要计算前面的位数具体是多少。</p><p><img src="pi.jpg"></p><p>这个公式的发现颠覆了人们对于圆周率的认识，有意思的是，当初这个公式是用来计算圆周率的，三位数学家也是无意中发现它可以计算任意的一位。不过这个公式的证明过程非常复杂，有兴趣的朋友可以查阅相关书籍。</p><h3 id="三：欧拉公式"><a href="#三：欧拉公式" class="headerlink" title="三：欧拉公式"></a>三：欧拉公式</h3><p><font size="7"></font></p><center><font size="7">$e^{i\pi}+1=0$</font></center><p></p><p>世界十大公式之一的欧拉公式看起来十分简单，没有几个符号，也没有很复杂的运算。</p><p>不过它却被誉为最完美的公式，原因就是它太”简单”了，不过却完美体现出了数学之美。</p><p>它包含了两个极为重要的无理数：e和π，还有虚数单位i，数字只包含了数学和哲学中最重要的0和1，并且只用了最为基本的加法连接他们（数学中很多运算可以由加法表示，如减法是加法的逆运算，乘法本质是多个加法），它形式虽然简单，但似乎已经包含万物。高斯曾说过：一个人第一次看见这个公式而没有感受到它的魅力，那他不会成为数学家。因此欧拉公式也被称为上帝公式。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Math </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Math </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>TensorFlow 学习笔记</title>
+      <link href="2020/11/07/machine-learning/tensorflow-notes/"/>
+      <url>2020/11/07/machine-learning/tensorflow-notes/</url>
+      
+        <content type="html"><![CDATA[<h3 id="构建模型的3种方法"><a href="#构建模型的3种方法" class="headerlink" title="构建模型的3种方法"></a>构建模型的3种方法</h3><p>可以使用以下3种方式构建模型：使用Sequential按层顺序构建模型，使用函数式API构建任意结构模型，继承Model基类构建自定义模型。</p><h4 id="1、Sequential按层顺序创建模型"><a href="#1、Sequential按层顺序创建模型" class="headerlink" title="1、Sequential按层顺序创建模型"></a>1、Sequential按层顺序创建模型</h4><p>对于顺序结构的模型，优先使用Sequential方法构建。</p><pre class=" language-python"><code class="language-python">tf<span class="token punctuation">.</span>keras<span class="token punctuation">.</span>backend<span class="token punctuation">.</span>clear_session<span class="token punctuation">(</span><span class="token punctuation">)</span>model <span class="token operator">=</span> models<span class="token punctuation">.</span>Sequential<span class="token punctuation">(</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Embedding<span class="token punctuation">(</span>MAX_WORDS<span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>input_length<span class="token operator">=</span>MAX_LEN<span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Conv1D<span class="token punctuation">(</span>filters <span class="token operator">=</span> <span class="token number">64</span><span class="token punctuation">,</span>kernel_size <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Conv1D<span class="token punctuation">(</span>filters <span class="token operator">=</span> <span class="token number">32</span><span class="token punctuation">,</span>kernel_size <span class="token operator">=</span> <span class="token number">3</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Flatten<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>add<span class="token punctuation">(</span>layers<span class="token punctuation">.</span>Dense<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"sigmoid"</span><span class="token punctuation">)</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>compile<span class="token punctuation">(</span>optimizer<span class="token operator">=</span><span class="token string">'Nadam'</span><span class="token punctuation">,</span>            loss<span class="token operator">=</span><span class="token string">'binary_crossentropy'</span><span class="token punctuation">,</span>            metrics<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'accuracy'</span><span class="token punctuation">,</span><span class="token string">"AUC"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>summary<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre><h4 id="2、函数式API创建任意结构模型"><a href="#2、函数式API创建任意结构模型" class="headerlink" title="2、函数式API创建任意结构模型"></a>2、函数式API创建任意结构模型</h4><p>如果模型有多输入或者多输出，或者模型需要共享权重，或者模型具有残差连接等非顺序结构，推荐使用函数式API进行创建。</p><pre class=" language-python"><code class="language-python">tf<span class="token punctuation">.</span>keras<span class="token punctuation">.</span>backend<span class="token punctuation">.</span>clear_session<span class="token punctuation">(</span><span class="token punctuation">)</span>inputs <span class="token operator">=</span> layers<span class="token punctuation">.</span>Input<span class="token punctuation">(</span>shape<span class="token operator">=</span><span class="token punctuation">[</span>MAX_LEN<span class="token punctuation">]</span><span class="token punctuation">)</span>x  <span class="token operator">=</span> layers<span class="token punctuation">.</span>Embedding<span class="token punctuation">(</span>MAX_WORDS<span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">(</span>inputs<span class="token punctuation">)</span>branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch1<span class="token punctuation">)</span>branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch1<span class="token punctuation">)</span>branch1 <span class="token operator">=</span> layers<span class="token punctuation">.</span>GlobalMaxPool1D<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch1<span class="token punctuation">)</span>branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch2<span class="token punctuation">)</span>branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch2<span class="token punctuation">)</span>branch2 <span class="token operator">=</span> layers<span class="token punctuation">.</span>GlobalMaxPool1D<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch2<span class="token punctuation">)</span>branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">64</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span>branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>MaxPool1D<span class="token punctuation">(</span><span class="token number">7</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch3<span class="token punctuation">)</span>branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>SeparableConv1D<span class="token punctuation">(</span><span class="token number">32</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">,</span>activation<span class="token operator">=</span><span class="token string">"relu"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch3<span class="token punctuation">)</span>branch3 <span class="token operator">=</span> layers<span class="token punctuation">.</span>GlobalMaxPool1D<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span>branch3<span class="token punctuation">)</span>concat <span class="token operator">=</span> layers<span class="token punctuation">.</span>Concatenate<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token punctuation">[</span>branch1<span class="token punctuation">,</span>branch2<span class="token punctuation">,</span>branch3<span class="token punctuation">]</span><span class="token punctuation">)</span>outputs <span class="token operator">=</span> layers<span class="token punctuation">.</span>Dense<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span>activation <span class="token operator">=</span> <span class="token string">"sigmoid"</span><span class="token punctuation">)</span><span class="token punctuation">(</span>concat<span class="token punctuation">)</span>model <span class="token operator">=</span> models<span class="token punctuation">.</span>Model<span class="token punctuation">(</span>inputs <span class="token operator">=</span> inputs<span class="token punctuation">,</span>outputs <span class="token operator">=</span> outputs<span class="token punctuation">)</span>model<span class="token punctuation">.</span>compile<span class="token punctuation">(</span>optimizer<span class="token operator">=</span><span class="token string">'Nadam'</span><span class="token punctuation">,</span>            loss<span class="token operator">=</span><span class="token string">'binary_crossentropy'</span><span class="token punctuation">,</span>            metrics<span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">'accuracy'</span><span class="token punctuation">,</span><span class="token string">"AUC"</span><span class="token punctuation">]</span><span class="token punctuation">)</span>model<span class="token punctuation">.</span>summary<span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre><h4 id="3、Model子类化创建自定义模型"><a href="#3、Model子类化创建自定义模型" class="headerlink" title="3、Model子类化创建自定义模型"></a>3、Model子类化创建自定义模型</h4><p>如果无特定必要，尽可能避免使用Model子类化的方式构建模型，这种方式提供了极大的灵活性，但也有更大的概率出错。</p><h3 id="训练模型的3种方法"><a href="#训练模型的3种方法" class="headerlink" title="训练模型的3种方法"></a>训练模型的3种方法</h3><p>模型的训练主要有内置fit方法、内置tran_on_batch方法、自定义训练循环。</p><p>注：fit_generator方法在tf.keras中不推荐使用，其功能已经被fit包含。</p><h4 id="1、内置fit方法"><a href="#1、内置fit方法" class="headerlink" title="1、内置fit方法"></a>1、内置fit方法</h4><p>该方法功能非常强大, 支持对numpy array, tf.data.Dataset以及 Python generator数据进行训练。并且可以通过设置回调函数实现对训练过程的复杂控制逻辑。</p><h4 id="2、内置train-on-batch方法"><a href="#2、内置train-on-batch方法" class="headerlink" title="2、内置train_on_batch方法"></a>2、内置train_on_batch方法</h4><p>该内置方法相比较fit方法更加灵活，可以不通过回调函数而直接在批次层次上更加精细地控制训练的过程。</p><h4 id="3、自定义训练循环"><a href="#3、自定义训练循环" class="headerlink" title="3、自定义训练循环"></a>3、自定义训练循环</h4><p>自定义训练循环无需编译模型，直接利用优化器根据损失函数反向传播迭代参数，拥有最高的灵活性。</p><h5 id="参考：30天吃掉那只Tensorflow2"><a href="#参考：30天吃掉那只Tensorflow2" class="headerlink" title="参考：30天吃掉那只Tensorflow2"></a>参考：<a href="https://jackiexiao.github.io/eat_tensorflow2_in_30_days/">30天吃掉那只Tensorflow2</a></h5>]]></content>
+      
+      
+      <categories>
+          
+          <category> Machine Learning </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TensorFlow </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
